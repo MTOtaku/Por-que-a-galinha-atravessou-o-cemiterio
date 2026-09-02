@@ -11,8 +11,10 @@ public class NoteHittable : MonoBehaviour {
     {
         if (other.CompareTag("HitZone")) {
             InHitZone = false;
-            if (!wasHit) JudgementSystem.Instance.RegisterMiss();
-            print("Miss");
+            if (!wasHit){
+                JudgementSystem.Instance.RegisterMiss();
+                print("Note Miss - NoteHittable.cs");
+            }
             Destroy(gameObject);
         }
     }
@@ -21,7 +23,7 @@ public class NoteHittable : MonoBehaviour {
 
     public void MarkAsHit() {
         wasHit = true;
-        print("Hit");
+        print("Note Hit - NoteHittable.cs");
         Destroy(gameObject);
     }
 }

@@ -13,7 +13,7 @@ public class JudgementSystem : MonoBehaviour {
     public void RegisterHit(Judgement judgement, NoteHittable note) {
         combo++;
         score += judgement == Judgement.Perfect ? 100 : 50;
-        print($"{judgement} Hit");
+        print($"{judgement} Hit - Judgement System");
         Destroy(note.gameObject);
     }
 
