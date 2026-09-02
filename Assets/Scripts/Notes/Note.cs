@@ -8,8 +8,7 @@ public class Note : MonoBehaviour {
     private float travelTime;
     private float spawnTime;
 
-    public void Init(NoteType type, float targetTime, Vector3 start, Vector3 end, float travel)
-    {
+    public void Init(NoteType type, float targetTime, Vector3 start, Vector3 end, float travel) {
         Type = type;
         TargetTime = targetTime;
         startPos = start;
@@ -18,15 +17,12 @@ public class Note : MonoBehaviour {
         spawnTime = (float)Conductor.Instance.SongPositionInSeconds;
     }
 
-    void Update()
-    {
-        float elapsed = (float)Conductor.Instance.SongPositionInBeats - spawnTime;
+    void Update() {
+        float elapsed = (float)Conductor.Instance.SongPositionInSeconds - spawnTime;
         float t = elapsed / travelTime;
         transform.position = Vector3.Lerp(startPos, EndPos, t);
         
-        //se passou da hitzone é não foi acertada, dá miss
-        if (t > 1.15f)
-        {
+        if (t > 1.15f) {
             JudgementSystem.Instance.RegisterMiss();
             Destroy(gameObject);
         }

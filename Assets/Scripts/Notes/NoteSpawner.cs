@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class NoteSpawnser : MonoBehaviour {
+public class NoteSpawner : MonoBehaviour {
     public ChartData chart;
     public GameObject notePrefab;
     public Transform spawnPoint;
