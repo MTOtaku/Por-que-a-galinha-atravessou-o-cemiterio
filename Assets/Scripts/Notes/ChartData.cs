@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 // acho que isso seria o chart?
 
-public enum NoteType { AttackUp, AttackDown } //  Quantidade de notas, no caso 2?
+public enum NoteType { Air, Ground } //  Quantidade de notas, no caso 2?
 
 [System.Serializable]
 public class NoteEvent {

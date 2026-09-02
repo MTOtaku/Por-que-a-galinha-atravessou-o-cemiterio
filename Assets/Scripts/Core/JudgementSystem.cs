@@ -10,20 +10,18 @@ public class JudgementSystem : MonoBehaviour {
     public float molejoLossOnMiss = 15f;
 
     void Awake() => Instance = this;
-
-    public void RegisterHit(Judgement judgement, Note note) {
+    public void RegisterHit(Judgement judgement, NoteHittable note) {
         combo++;
         score += judgement == Judgement.Perfect ? 100 : 50;
+        print($"{judgement} Hit");
         Destroy(note.gameObject);
-        
-        // depois adicionar animação, particula som etc
     }
 
     public void RegisterMiss()
     {
         combo = 0;
         molejo -= molejoLossOnMiss;
-
+        
         if (molejo <= 0)
         {
             // game over aq

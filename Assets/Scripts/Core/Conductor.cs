@@ -29,4 +29,7 @@ public class Conductor : MonoBehaviour {
         SongPositionInBeats = (float)(SongPositionInSeconds / SecPerBeat);
     }
 
+    void Start() {
+        StartSong();
+    }
 }
