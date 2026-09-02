@@ -13,5 +13,15 @@ MonoBehaviour:
   m_Name: Fase01_Easy
   m_EditorClassIdentifier: Assembly-CSharp::ChartData
   song: {fileID: 0}
-  bpm: 0
-  notes: []
+  bpm: 60
+  notes:
+  - beat: 0
+    type: 0
+  - beat: 1
+    type: 1
+  - beat: 2
+    type: 1
+  - beat: 6
+    type: 0
+  - beat: 6
+    type: 1

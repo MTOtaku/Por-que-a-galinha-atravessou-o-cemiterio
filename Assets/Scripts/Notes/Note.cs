@@ -30,6 +30,5 @@ public class Note : MonoBehaviour {
             JudgementSystem.Instance.RegisterMiss();
             Destroy(gameObject);
         }
-            
     }
 }

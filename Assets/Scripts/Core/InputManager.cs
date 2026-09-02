@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -13,18 +12,15 @@ public class InputManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.S)) TryHit(NoteType.AttackDown);
     }
 
-    void TryHit(NoteType type)
-    {
-        Note closest = FindClosestNote(type);
-        if (closest == null) return;
-
-        float diff = Mathf.Abs((float)Conductor.Instance.SongPositionInSeconds - closest.TargetTime);
-
-        if (diff <= perfectWindow)
-            JudgementSystem.Instance.RegisterHit(Judgement.Perfect, closest);
-        else if (diff <= goodWindow)
-            JudgementSystem.Instance.RegisterHit(Judgement.Good, closest);
-        // nem precisa falar q ta fora, ele so n registra msm e vira miss sozinho
+    void TryHit(NoteType type) {
+        NoteHittable[] notes = FindObjectsOfType<NoteHittable>();
+        foreach (var note in notes) {
+            if (note.type == type && note.InHitZone) {
+                note.MarkAsHit();
+                JudgementSystem.Instance.RegisterHit(Judgement.Perfect, note); // pode refinar Perfect/Good por posição depois
+                return;
+            }
+        }
     }
 
     Note FindClosestNote(NoteType type) {
