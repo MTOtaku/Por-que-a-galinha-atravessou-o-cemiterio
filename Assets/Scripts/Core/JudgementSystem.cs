@@ -18,6 +18,13 @@ public class JudgementSystem : MonoBehaviour {
         if (norget != null) norget.PlayReaction(judgement);
     }
 
+    public void RegisterDodge(){
+        combo++;
+        score += 50;
+        print($"Desvio - Judgement System");
+        if (norget != null) norget.PlayReaction(Judgement.Good);
+    }
+    
     public void RegisterMiss() {
         combo = 0;
         molejo -= molejoLossOnMiss;

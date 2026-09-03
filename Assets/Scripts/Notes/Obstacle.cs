@@ -12,11 +12,16 @@ public class Obstacle : MonoBehaviour {
         NorgetController norget = other.GetComponent<NorgetController>();
         if (norget == null) return;
         
-        bool desviou = (type == NoteType.Air && !norget.IsAirbone) || 
-                       (type == NoteType.Ground && norget.IsAirbone);
+        bool desviou = (type == NoteType.Ground && norget.IsAirbone) || 
+                (type == NoteType.Air && !norget.IsAirbone);
 
-        if (!desviou) {
+        if (desviou) {
+            JudgementSystem.Instance.RegisterDodge();
+            print("Desviou");
+        }
+        else {
             JudgementSystem.Instance.RegisterMiss();
+            print("Bateu no Obstaculo");
         }
         Destroy(gameObject);
     }
