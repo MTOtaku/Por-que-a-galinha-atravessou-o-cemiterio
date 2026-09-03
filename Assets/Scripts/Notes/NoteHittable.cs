@@ -1,9 +1,16 @@
 ﻿using UnityEngine;
+
+public enum NoteShape { Tap, Hold }
+
 public class NoteHittable : MonoBehaviour {
     public NoteType type;
+    public NoteShape shape = NoteShape.Tap;
     public bool InHitZone { get; private set; }
 
     private Transform hitZoneTransform;
+    private bool wasHit = false; // Isso aq é pra nota de Tap
+    private bool heldAtSomePoint = false; // ISso aq é pra notas de Hold
+    
     
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("HitZone")) {
@@ -12,15 +19,31 @@ public class NoteHittable : MonoBehaviour {
         }
     }
 
-    void OnTriggerExit2D(Collider2D other) {
-        if (other.CompareTag("HitZone")) {
-            InHitZone = false;
-            if (!wasHit){
-                JudgementSystem.Instance.RegisterMiss();
-                print("Note Miss - NoteHittable.cs");
-            }
-            Destroy(gameObject);
+    void Update(){
+        if (shape == NoteShape.Hold && InHitZone) {
+            KeyCode key = type == NoteType.Air ? KeyCode.A : KeyCode.S;
+            if (Input.GetKey(key)) heldAtSomePoint = true;
         }
+    }
+    
+    void OnTriggerExit2D(Collider2D other){
+        if (!other.CompareTag("HitZone")) return;
+        InHitZone = false;
+
+        if (shape == NoteShape.Tap) {
+            if (!wasHit) {
+                JudgementSystem.Instance.RegisterMiss();
+                print("Miss - NoteHittable.cs");
+            }
+        } else { //Hold notes
+            KeyCode key = type == NoteType.Air ? KeyCode.A : KeyCode.S;
+            bool stillHolding = Input.GetKey(key);
+            
+            if (stillHolding) JudgementSystem.Instance.RegisterHit(Judgement.Perfect,this);
+            else if (heldAtSomePoint) JudgementSystem.Instance.RegisterHit(Judgement.Good, this);
+            else JudgementSystem.Instance.RegisterMiss();
+        }
+        Destroy(gameObject);
     }
     
     // Distancia até o centro da hitzone dentro da unidade da unity
@@ -29,8 +52,6 @@ public class NoteHittable : MonoBehaviour {
         return Mathf.Abs(transform.position.x - hitZoneTransform.position.x);
     }
     
-    private bool wasHit = false;
-
     public void MarkAsHit() {
         wasHit = true;
         print("Note Hit - NoteHittable.cs");

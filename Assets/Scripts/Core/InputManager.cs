@@ -14,7 +14,7 @@ public class InputManager : MonoBehaviour {
     void TryHit(NoteType type) {
         NoteHittable[] notes = FindObjectsOfType<NoteHittable>();
         foreach (var note in notes) {
-            if (note.type == type && note.InHitZone) {
+            if (note.type == type && note.shape == NoteShape.Tap && note.InHitZone) {
                 float distance = note.DistanceToHitZoneCenter();
                 Judgement judgement = distance <= perfectDistance ? Judgement.Perfect : Judgement.Good;
                 note.MarkAsHit();

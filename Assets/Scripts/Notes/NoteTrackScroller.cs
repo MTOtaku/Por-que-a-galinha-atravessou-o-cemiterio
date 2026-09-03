@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class NoteTrackScroller : MonoBehaviour {
     [Header("Configuração")] public float unitsPerBeat = 2f; // distancia no editor = 1 beat da musica
-
     private float speed;
 
     private void Start() {
