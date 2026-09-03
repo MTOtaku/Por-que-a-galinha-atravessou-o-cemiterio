@@ -17,13 +17,11 @@ public class JudgementSystem : MonoBehaviour {
         Destroy(note.gameObject);
     }
 
-    public void RegisterMiss()
-    {
+    public void RegisterMiss() {
         combo = 0;
         molejo -= molejoLossOnMiss;
         
-        if (molejo <= 0)
-        {
+        if (molejo <= 0) {
             // game over aq
         }
     }
