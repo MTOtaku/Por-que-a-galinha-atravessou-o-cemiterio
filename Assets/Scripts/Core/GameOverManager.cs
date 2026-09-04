@@ -23,12 +23,16 @@ public class GameOverManager : MonoBehaviour {
     }
 
     public void Restart() {
-        Time.timeScale = 1f;
+        SceneManager.sceneLoaded += OnSceneReload;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void BackToMenu() {
         Time.timeScale = 1f;
         SceneManager.LoadScene(menuSceneName);
+    }
+    private void OnSceneReload(Scene scene, LoadSceneMode mode){
+        Time.timeScale = 1f; 
+        SceneManager.sceneLoaded -= OnSceneReload;
     }
 }
