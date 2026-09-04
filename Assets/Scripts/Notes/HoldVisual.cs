@@ -2,28 +2,22 @@ using UnityEngine;
 
 [ExecuteAlways]
 public class HoldVisual : MonoBehaviour {
-    [Header("Duração do Hold")] [Tooltip("Quantos segundos o jogador precisa segurar")]
+    [Header("Duração do Hold")]
     public float holdDurationSeconds = 1f;
 
-    [Header("Sincronia (tem que ta de acordo com o NoteTimingHandle)")]
-    public float unitsPerBeat = 2f;
+    public RhythmSettings rhythm;
 
-    public float bpm = 120f;
-
-    [Header("Referências Visuais")] 
-    public SpriteRenderer bodySpriteRenderer; //Draw mode precisa estar em Tiled
+    [Header("Referências Visuais")]
+    public SpriteRenderer bodySpriteRenderer;
     public BoxCollider2D holdCollider;
 
-    void OnValidate(){
-        float secPerBeat = 60f / bpm;
-        float speed = unitsPerBeat / secPerBeat;
-        float bodyLength = holdDurationSeconds * speed;
+    void OnValidate() {
+        if (rhythm == null) return;
+
+        float bodyLength = holdDurationSeconds * rhythm.Speed;
 
         if (bodySpriteRenderer != null) {
-            //Muda o comprimento
             bodySpriteRenderer.size = new Vector2(bodyLength, bodySpriteRenderer.size.y);
-            
-            //posiciona o corpo depois do head
             Vector3 pos = bodySpriteRenderer.transform.localPosition;
             pos.x = bodyLength / 2f;
             bodySpriteRenderer.transform.localPosition = pos;
