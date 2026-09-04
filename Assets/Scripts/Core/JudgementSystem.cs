@@ -1,4 +1,6 @@
 using UnityEngine;
+using System;
+using System.Collections;
 
 public enum Judgement {Perfect, Good, Miss}
 public class JudgementSystem : MonoBehaviour {
@@ -23,6 +25,8 @@ public class JudgementSystem : MonoBehaviour {
         print($"Desvio - Judgement System");
         if (norget != null) norget.PlayReaction(Judgement.Good);
     }
+
+    public static event Action OnPlayerDied;
     
     public void RegisterMiss() {
         float oldHealth = health;
@@ -33,7 +37,7 @@ public class JudgementSystem : MonoBehaviour {
         if (norget != null) norget.PlayReaction(Judgement.Miss);
         
         if (health <= 0) {
-            // game over aq
+            GameOverManager.Instance.ShowGameOver();
         }
     }
 }

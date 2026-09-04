@@ -56,8 +56,4 @@ public class NorgetController : MonoBehaviour {
       else if (judgement == Judgement.Perfect) animator.SetTrigger("Perfect");
       else animator.SetTrigger("Good");
    }
-   // Chamar quando a vida chegar em 0, somente pra dar a tela de gameover
-   public void Die(){
-      
-   }
 }
