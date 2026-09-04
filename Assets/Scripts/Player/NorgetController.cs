@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using System.Collections;
 
 public class NorgetController : MonoBehaviour {
@@ -9,14 +10,26 @@ public class NorgetController : MonoBehaviour {
    [Header("Referencias Animação")]
    public Animator animator;
    
+   [Header("Input System")]
+   public InputActionReference attackUpAction;
+   
    private Coroutine jumpRoutine;
 
-   void Update(){
-      if (Input.GetKeyDown(KeyCode.A) && !IsAirbone) {
-         Jump();
-      }
+
+   void OnEnable(){
+      attackUpAction.action.Enable();
+      attackUpAction.action.performed += OnAttackUp;
    }
 
+   void OnDisable(){
+      attackUpAction.action.performed -= OnAttackUp;
+      attackUpAction.action.Disable();
+   }
+
+   void OnAttackUp(InputAction.CallbackContext ctx){
+      if (!IsAirbone) Jump();
+   }
+   
    public void Jump(){
       print("Jump");
       if (jumpRoutine != null) StopCoroutine(jumpRoutine); 

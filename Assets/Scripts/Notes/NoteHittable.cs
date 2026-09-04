@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 public enum NoteShape { Tap, Hold }
 
@@ -7,6 +8,11 @@ public class NoteHittable : MonoBehaviour {
     public NoteShape shape = NoteShape.Tap;
     public bool InHitZone { get; private set; }
 
+    [Header("Input System")]
+    public InputActionReference attackUpAction;
+
+    public InputActionReference attackDownAction;
+    
     private Transform hitZoneTransform;
     private bool wasHit = false; // Isso aq é pra nota de Tap
     private bool heldAtSomePoint = false; // ISso aq é pra notas de Hold
@@ -36,8 +42,8 @@ public class NoteHittable : MonoBehaviour {
                 print("Miss - NoteHittable.cs");
             }
         } else { //Hold notes
-            KeyCode key = type == NoteType.Air ? KeyCode.A : KeyCode.S;
-            bool stillHolding = Input.GetKey(key);
+            InputAction action = type == NoteType.Air ? attackUpAction.action : attackDownAction.action;
+            bool stillHolding = action.IsPressed();
             
             if (stillHolding) JudgementSystem.Instance.RegisterHit(Judgement.Perfect,this);
             else if (heldAtSomePoint) JudgementSystem.Instance.RegisterHit(Judgement.Good, this);

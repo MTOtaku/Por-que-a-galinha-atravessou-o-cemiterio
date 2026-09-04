@@ -124,6 +124,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NoteHittable
   type: 1
   shape: 0
+  attackUpAction: {fileID: 8801065999918395495, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  attackDownAction: {fileID: 7791051493849181974, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
 --- !u!61 &3223090263303431506
 BoxCollider2D:
   m_ObjectHideFlags: 0
