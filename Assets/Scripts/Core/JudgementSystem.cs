@@ -16,7 +16,10 @@ public class JudgementSystem : MonoBehaviour {
         combo++;
         score += judgement == Judgement.Perfect ? 100 : 50;
         print($"{judgement} Hit - Judgement System");
-        if (norget != null) norget.PlayReaction(judgement);
+        if (norget != null) {
+            norget.PlayReaction(judgement);
+            if (note.type == NoteType.Air) norget.Jump();
+        }
     }
 
     public void RegisterDodge(){
