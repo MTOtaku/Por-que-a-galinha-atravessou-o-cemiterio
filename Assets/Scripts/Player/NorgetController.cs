@@ -5,7 +5,7 @@ using System.Collections;
 public class NorgetController : MonoBehaviour {
    public bool IsAirbone {get; private set;}
 
-   [Header("Pulo")] public float jumpDuration = 0.4f;
+   [Header("Pulo")] public float jumpDuration = 1.0f;
    
    [Header("Referencias Animação")]
    public Animator animator;
