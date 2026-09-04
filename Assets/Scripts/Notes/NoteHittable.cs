@@ -60,7 +60,6 @@ public class NoteHittable : MonoBehaviour {
     
     public void MarkAsHit() {
         wasHit = true;
-        print("Note Hit - NoteHittable.cs");
         Destroy(gameObject);
     }
 }

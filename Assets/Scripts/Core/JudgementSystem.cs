@@ -7,9 +7,8 @@ public class JudgementSystem : MonoBehaviour {
 
     public int score = 0;
     public int combo = 0;
-    public float molejo = 100f;
-    public float molejoLossOnMiss = 15f;
-
+    public float health = 100f;
+    public float healthLossOnMiss = 15f;
     void Awake() => Instance = this;
     public void RegisterHit(Judgement judgement, NoteHittable note) {
         combo++;
@@ -26,11 +25,14 @@ public class JudgementSystem : MonoBehaviour {
     }
     
     public void RegisterMiss() {
+        float oldHealth = health;
         combo = 0;
-        molejo -= molejoLossOnMiss;
-        if (norget != null) norget.PlayReaction(null);
+        health -= healthLossOnMiss;
+        print($"Vida atual: {health}, antes era: {oldHealth}");
         
-        if (molejo <= 0) {
+        if (norget != null) norget.PlayReaction(Judgement.Miss);
+        
+        if (health <= 0) {
             // game over aq
         }
     }
