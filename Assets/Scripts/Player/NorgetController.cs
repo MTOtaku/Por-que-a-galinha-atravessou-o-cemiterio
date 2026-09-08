@@ -17,6 +17,11 @@ public class NorgetController : MonoBehaviour {
    
    [Header("Referencias Animação")]
    public Animator animator;
+
+   [Header("Animação de Correr Por vida")] [Tooltip("Abaixo desses % vai pra Half Shoes")]
+   public float healthThreshouldRun2 = 70f;
+   [Tooltip("Abaixo desses % vai pra No Shoes")]
+   public float healthThreshouldRun3 = 30f;
    
    [Header("Input System")]
    public InputActionReference attackUpAction;
@@ -25,11 +30,32 @@ public class NorgetController : MonoBehaviour {
    
    private Coroutine jumpRoutine;
    private Vector3 groundPosition;
+   private int currentRunState = -1;
 
    void Awake(){
       groundPosition = transform.position;
    }
 
+   void Update(){
+      UpdateRunAnimation();
+   }
+
+   void UpdateRunAnimation(){
+      if (animator == null || JudgementSystem.Instance == null) return;
+
+      float health = JudgementSystem.Instance.health;
+      int newState;
+
+      if (health <= healthThreshouldRun3) newState = 2;
+      else if (health <= healthThreshouldRun2) newState = 1;
+      else newState = 0;
+
+      if (newState != currentRunState) {
+         currentRunState = newState;
+         animator.SetInteger("RunState", newState);
+      }
+   }
+   
    void OnEnable(){
       attackUpAction.action.Enable();
       attackUpAction.action.performed += OnAttackUp;

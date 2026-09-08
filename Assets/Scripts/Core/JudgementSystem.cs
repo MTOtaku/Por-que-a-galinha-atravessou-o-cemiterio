@@ -9,14 +9,18 @@ public class JudgementSystem : MonoBehaviour {
 
     public int score = 0;
     public int combo = 0;
-    public float health = 100f;
+    public float maxHealth = 100f;
+    public float health;
     public float healthLossOnMiss = 15f;
 
     public float PerfectCount = 0;
     public float GoodCount = 0;
     public float MissCount = 0;
-    
-    void Awake() => Instance = this;
+
+    void Awake(){
+        Instance = this;
+        health = maxHealth;
+    }
     public void RegisterHit(Judgement judgement, NoteHittable note) {
         combo++;
         score += judgement == Judgement.Perfect ? 100 : 50;

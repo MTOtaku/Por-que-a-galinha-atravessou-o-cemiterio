@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Fase_template
   m_EditorClassIdentifier: Assembly-CSharp::RhythmSettings
   bpm: 174
-  unitsPerBeat: 1
+  unitsPerBeat: 5
