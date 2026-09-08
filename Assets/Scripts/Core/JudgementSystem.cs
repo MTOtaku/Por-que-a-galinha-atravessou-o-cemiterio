@@ -36,8 +36,6 @@ public class JudgementSystem : MonoBehaviour {
         print($"Desvio - Judgement System");
         if (norget != null) norget.PlayReaction(Judgement.Perfect);
     }
-
-    public static event Action OnPlayerDied;
     
     public void RegisterMiss() {
         float oldHealth = health;
