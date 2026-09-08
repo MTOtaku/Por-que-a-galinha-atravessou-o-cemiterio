@@ -20,6 +20,8 @@ public class NorgetController : MonoBehaviour {
    
    [Header("Input System")]
    public InputActionReference attackUpAction;
+
+   public InputActionReference attackDownAction;
    
    private Coroutine jumpRoutine;
    private Vector3 groundPosition;
@@ -31,15 +33,25 @@ public class NorgetController : MonoBehaviour {
    void OnEnable(){
       attackUpAction.action.Enable();
       attackUpAction.action.performed += OnAttackUp;
+      
+      attackDownAction.action.Enable();
+      attackDownAction.action.performed += OnAttackDown;
    }
 
    void OnDisable(){
       attackUpAction.action.performed -= OnAttackUp;
       attackUpAction.action.Disable();
+
+      attackDownAction.action.performed -= OnAttackDown;
+      attackDownAction.action.Disable();
    }
 
    void OnAttackUp(InputAction.CallbackContext ctx){
       if (!IsAirbone) Jump();
+   }
+
+   void OnAttackDown(InputAction.CallbackContext ctx){
+      if (IsAirbone) LandInstantly();
    }
    
    public void Jump(){
@@ -86,4 +98,12 @@ public class NorgetController : MonoBehaviour {
       else if (judgement == Judgement.Perfect) animator.SetTrigger("Perfect");
       else animator.SetTrigger("Good");
    }
+
+   public void LandInstantly(){
+      if (jumpRoutine != null) StopCoroutine(jumpRoutine);
+      transform.position = groundPosition;
+      IsAirbone = false;
+      if (animator != null) animator.SetBool("IsAirbone", false);
+   }
+   
 }

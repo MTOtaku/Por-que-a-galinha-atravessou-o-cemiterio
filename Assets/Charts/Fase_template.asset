@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7896c6a4fb33466baf074590176b18da, type: 3}
   m_Name: Fase_template
   m_EditorClassIdentifier: Assembly-CSharp::RhythmSettings
-  bpm: 195
+  bpm: 174
   unitsPerBeat: 1

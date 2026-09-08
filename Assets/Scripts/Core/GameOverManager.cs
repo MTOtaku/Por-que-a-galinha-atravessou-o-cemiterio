@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameOverManager : MonoBehaviour {
     public static GameOverManager Instance;
 
     [Header("UI")]
     public GameObject gameOverPanel;
+    public TMP_Text scoreText;
 
     [Header("Cenas")] public string menuSceneName = "Menu"; // dá pra trocar dps pro nome do menu
 
@@ -16,6 +18,9 @@ public class GameOverManager : MonoBehaviour {
 
     public void ShowGameOver(){
         if (gameOverPanel != null) gameOverPanel.SetActive(true);
+        
+        if(scoreText != null && JudgementSystem.Instance != null)
+            scoreText.text = $"Score: {JudgementSystem.Instance.score}";
         
         Time.timeScale = 0f; // Aparentemente isso é o que pausa o jogo (no caso o que usa Time.delta)
 
