@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
+using Unity.VisualScripting;
 
 public enum NoteShape { Tap, Hold }
 
@@ -8,9 +10,11 @@ public class NoteHittable : MonoBehaviour {
     public NoteShape shape = NoteShape.Tap;
     public bool InHitZone { get; private set; }
 
+    [Header("Nota")] [Tooltip("Tempo pra nota ser destruida no miss")]
+    public float missDestroyDelay = 1.0f;
+    
     [Header("Input System")]
     public InputActionReference attackUpAction;
-
     public InputActionReference attackDownAction;
     
     private Transform hitZoneTransform;
@@ -40,6 +44,9 @@ public class NoteHittable : MonoBehaviour {
             if (!wasHit) {
                 JudgementSystem.Instance.RegisterMiss();
                 print("Miss - NoteHittable.cs");
+
+                StartCoroutine(DestroyAfterMiss());
+                return;
             }
         } else { //Hold notes
             InputAction action = type == NoteType.Air ? attackUpAction.action : attackDownAction.action;
@@ -47,7 +54,11 @@ public class NoteHittable : MonoBehaviour {
             
             if (stillHolding) JudgementSystem.Instance.RegisterHit(Judgement.Perfect,this);
             else if (heldAtSomePoint) JudgementSystem.Instance.RegisterHit(Judgement.Good, this);
-            else JudgementSystem.Instance.RegisterMiss();
+            else {
+                JudgementSystem.Instance.RegisterMiss();
+                StartCoroutine(DestroyAfterMiss());
+                return;
+            }
         }
         Destroy(gameObject);
     }
@@ -60,6 +71,10 @@ public class NoteHittable : MonoBehaviour {
     
     public void MarkAsHit() {
         wasHit = true;
+        Destroy(gameObject);
+    }
+    private IEnumerator DestroyAfterMiss(){
+        yield return new WaitForSeconds(missDestroyDelay);
         Destroy(gameObject);
     }
 }

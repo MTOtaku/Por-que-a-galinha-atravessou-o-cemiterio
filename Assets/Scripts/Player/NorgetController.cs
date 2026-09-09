@@ -4,6 +4,7 @@ using System.Collections;
 
 public class NorgetController : MonoBehaviour {
    public bool IsAirbone {get; private set;}
+   public bool IsMidAir {get; private set;}
 
    [Header("Pulo")]
    [Tooltip("Tempo total no ar")]
@@ -88,6 +89,7 @@ public class NorgetController : MonoBehaviour {
 
    private IEnumerator JumpRoutine(){
       IsAirbone = true;
+      IsMidAir = false;
       if (animator != null) animator.SetBool("IsAirbone", true);
 
       Vector3 peakPosition = groundPosition + Vector3.up * jumpHeight;
@@ -100,7 +102,8 @@ public class NorgetController : MonoBehaviour {
          yield return null;
       }
       transform.position = peakPosition;
-
+      
+      IsMidAir = true;
       float fallDuration = jumpDuration - riseDuration;
       elapsed = 0f;
       while (elapsed < fallDuration) {
@@ -111,6 +114,7 @@ public class NorgetController : MonoBehaviour {
       transform.position = groundPosition;
 
       IsAirbone = false;
+      IsMidAir = false;
       if (animator != null) animator.SetBool("IsAirbone", false);
       print("Aterrissou");
    }
@@ -129,6 +133,7 @@ public class NorgetController : MonoBehaviour {
       if (jumpRoutine != null) StopCoroutine(jumpRoutine);
       transform.position = groundPosition;
       IsAirbone = false;
+      IsMidAir = false;
       if (animator != null) animator.SetBool("IsAirbone", false);
    }
 }
