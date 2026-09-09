@@ -1,0 +1,1400 @@
+fileFormatVersion: 2
+guid: eab3619ccf3369f42851be8d3286db01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6410416206888842365
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_0
+  - first:
+      213: -4571958755792131680
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_1
+  - first:
+      213: -5294702644327159394
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_2
+  - first:
+      213: -5607286334171079376
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_3
+  - first:
+      213: 3103256050939722535
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_4
+  - first:
+      213: 7473132985773357389
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_5
+  - first:
+      213: 5500187491175458059
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_6
+  - first:
+      213: -1611933414569870366
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_7
+  - first:
+      213: 263158345969461140
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_8
+  - first:
+      213: -411393179664582521
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_9
+  - first:
+      213: 7165375429306676737
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_10
+  - first:
+      213: -2148993506751187460
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_11
+  - first:
+      213: 2264353318085417752
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_12
+  - first:
+      213: -4709980101850075301
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_13
+  - first:
+      213: 1863306890110117633
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_14
+  - first:
+      213: -8263932755566511266
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_15
+  - first:
+      213: -1675855120568776797
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_16
+  - first:
+      213: 3415277330583391500
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_17
+  - first:
+      213: -7426746243816521135
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_18
+  - first:
+      213: 2677858799355864884
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_19
+  - first:
+      213: 437902748752240873
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_20
+  - first:
+      213: 7156660700782342289
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_21
+  - first:
+      213: -2310716747818948742
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_22
+  - first:
+      213: 2908653110983559798
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_23
+  - first:
+      213: -3023185479153303581
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_24
+  - first:
+      213: -6643249144979673639
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_25
+  - first:
+      213: -6477188030370517937
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_26
+  - first:
+      213: 7912308709658554193
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_27
+  - first:
+      213: -1362135640842423921
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_28
+  - first:
+      213: 8216955597463296854
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_29
+  - first:
+      213: -1000859230013766085
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_30
+  - first:
+      213: -553406769853299565
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_31
+  - first:
+      213: 6387147463304697384
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_32
+  - first:
+      213: -4776535331273218023
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_33
+  - first:
+      213: -8807833482046149844
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_34
+  - first:
+      213: 335775626798447508
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_35
+  - first:
+      213: 6098916908367687475
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_36
+  - first:
+      213: -4510646985369771099
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_37
+  - first:
+      213: 3577097065884067295
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_38
+  - first:
+      213: -520398260190714445
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_39
+  - first:
+      213: 8107877142934187825
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_40
+  - first:
+      213: 3589241931406375882
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_41
+  - first:
+      213: -1457060840816874235
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_42
+  - first:
+      213: 876110528848473567
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_43
+  - first:
+      213: 1858272727317588279
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_44
+  - first:
+      213: 4094676105957034869
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_45
+  - first:
+      213: -5284690576069619679
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_46
+  - first:
+      213: -6903979483077472322
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_47
+  - first:
+      213: 5531463416691650873
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_48
+  - first:
+      213: 5814132742285039881
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_49
+  - first:
+      213: -3199578444842588850
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_50
+  - first:
+      213: 4636664334861069250
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_51
+  - first:
+      213: 7248485359340301015
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_52
+  - first:
+      213: 4282711681388608073
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_53
+  - first:
+      213: 6367637505872857985
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_54
+  - first:
+      213: 1862500694413639379
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_55
+  - first:
+      213: 6902943558336593153
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_56
+  - first:
+      213: -4206579652517582238
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_57
+  - first:
+      213: -6789563951482756499
+    second: Sprite_sheet_galinha_Corrigido_talvezAgrVai_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10005
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bcbf57c60a907a0800000000000000
+      internalID: -6410416206888842365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_1
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 10005
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9e5412cb32d80c0800000000000000
+      internalID: -4571958755792131680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_2
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 10005
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99ee8d5fff6586b0800000000000000
+      internalID: -5294702644327159394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_3
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 10005
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d94d9a9caee22b0800000000000000
+      internalID: -5607286334171079376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_4
+      rect:
+        serializedVersion: 2
+        x: 4592
+        y: 10005
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bf753cfeaf01b20800000000000000
+      internalID: 3103256050939722535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_5
+      rect:
+        serializedVersion: 2
+        x: 5740
+        y: 10005
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4976403bd6e5b760800000000000000
+      internalID: 7473132985773357389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_6
+      rect:
+        serializedVersion: 2
+        x: 6888
+        y: 10005
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b056f89c167945c40800000000000000
+      internalID: 5500187491175458059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_7
+      rect:
+        serializedVersion: 2
+        x: 8036
+        y: 10005
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebfafe891341a9e0800000000000000
+      internalID: -1611933414569870366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8755
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49760331f1de6a300800000000000000
+      internalID: 263158345969461140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_9
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 8755
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788f21f25107a4af0800000000000000
+      internalID: -411393179664582521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_10
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 8755
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106f22a3df6807360800000000000000
+      internalID: 7165375429306676737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_11
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 8755
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5797d9acd3d22e0800000000000000
+      internalID: -2148993506751187460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_12
+      rect:
+        serializedVersion: 2
+        x: 4592
+        y: 8755
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b557288599c6f10800000000000000
+      internalID: 2264353318085417752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_13
+      rect:
+        serializedVersion: 2
+        x: 5740
+        y: 8755
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f611a4d0ac2aeb0800000000000000
+      internalID: -4709980101850075301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_14
+      rect:
+        serializedVersion: 2
+        x: 6888
+        y: 8755
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1072d8c8ebbcbd910800000000000000
+      internalID: 1863306890110117633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_15
+      rect:
+        serializedVersion: 2
+        x: 8036
+        y: 8755
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b3eb861fc905d80800000000000000
+      internalID: -8263932755566511266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7505
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a78a7b95aa2eb8e0800000000000000
+      internalID: -1675855120568776797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_17
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 7505
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d0ed223a0856f20800000000000000
+      internalID: 3415277330583391500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_18
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 7505
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152895cc3a5eee890800000000000000
+      internalID: -7426746243816521135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_19
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 7505
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437a24ed36aa92520800000000000000
+      internalID: 2677858799355864884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_20
+      rect:
+        serializedVersion: 2
+        x: 4592
+        y: 7505
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e06b89da3eb31600800000000000000
+      internalID: 437902748752240873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_21
+      rect:
+        serializedVersion: 2
+        x: 5740
+        y: 7505
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19031206df0915360800000000000000
+      internalID: 7156660700782342289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_22
+      rect:
+        serializedVersion: 2
+        x: 6888
+        y: 7505
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77a4bd4c5faeefd0800000000000000
+      internalID: -2310716747818948742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_23
+      rect:
+        serializedVersion: 2
+        x: 8036
+        y: 7505
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a820ff79c9d5820800000000000000
+      internalID: 2908653110983559798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6255
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efb2f003dc7b06d0800000000000000
+      internalID: -3023185479153303581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_25
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 6255
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dda11f99107ec3a0800000000000000
+      internalID: -6643249144979673639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_26
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 6255
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c6a52ddc76c16a0800000000000000
+      internalID: -6477188030370517937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_27
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 6255
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f6d68a9da2ecd60800000000000000
+      internalID: 7912308709658554193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5005
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8130bff9d8b81de0800000000000000
+      internalID: -1362135640842423921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_29
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 5005
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b15f1a49d780270800000000000000
+      internalID: 8216955597463296854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_30
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 5005
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36cbd445db3c12f0800000000000000
+      internalID: -1000859230013766085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_31
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 5005
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39409929977e158f0800000000000000
+      internalID: -553406769853299565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3755
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826505ef6c4b3a850800000000000000
+      internalID: 6387147463304697384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_33
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 3755
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9186b526c6656bdb0800000000000000
+      internalID: -4776535331273218023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_34
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 3755
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2be8dd2d1a44c580800000000000000
+      internalID: -8807833482046149844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_35
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 3755
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b3e8f472ae8a400800000000000000
+      internalID: 335775626798447508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2505
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f21ed5d94b3a450800000000000000
+      internalID: 6098916908367687475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_37
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 2505
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a329d91776f661c0800000000000000
+      internalID: -4510646985369771099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_38
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 2505
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5ac1344d664a130800000000000000
+      internalID: 3577097065884067295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_39
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 2505
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5e99f1a8c27c8f0800000000000000
+      internalID: -520398260190714445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1255
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fe91bdd47f48070800000000000000
+      internalID: 8107877142934187825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_41
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1255
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbf96e158c8fc130800000000000000
+      internalID: 3589241931406375882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_42
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 1255
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d6af692ea77cbe0800000000000000
+      internalID: -1457060840816874235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_43
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 1255
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd2ef752e1982c00800000000000000
+      internalID: 876110528848473567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739af8f2339e9c910800000000000000
+      internalID: 1858272727317588279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_45
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 5
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b49dd493633d830800000000000000
+      internalID: 4094676105957034869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_46
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 5
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1201489abe109a6b0800000000000000
+      internalID: -5284690576069619679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_talvezAgrVai_47
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 5
+        width: 1148
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf059e2d332030a0800000000000000
+      internalID: -6903979483077472322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 393c32b3fe7b85c459d17e8de9b3d3b6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":9.0},"gridSpriteSize":{"x":1148.0,"y":1250.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_0: -6410416206888842365
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_1: -4571958755792131680
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_10: 7165375429306676737
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_11: -2148993506751187460
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_12: 2264353318085417752
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_13: -4709980101850075301
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_14: 1863306890110117633
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_15: -8263932755566511266
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_16: -1675855120568776797
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_17: 3415277330583391500
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_18: -7426746243816521135
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_19: 2677858799355864884
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_2: -5294702644327159394
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_20: 437902748752240873
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_21: 7156660700782342289
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_22: -2310716747818948742
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_23: 2908653110983559798
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_24: -3023185479153303581
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_25: -6643249144979673639
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_26: -6477188030370517937
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_27: 7912308709658554193
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_28: -1362135640842423921
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_29: 8216955597463296854
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_3: -5607286334171079376
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_30: -1000859230013766085
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_31: -553406769853299565
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_32: 6387147463304697384
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_33: -4776535331273218023
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_34: -8807833482046149844
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_35: 335775626798447508
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_36: 6098916908367687475
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_37: -4510646985369771099
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_38: 3577097065884067295
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_39: -520398260190714445
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_4: 3103256050939722535
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_40: 8107877142934187825
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_41: 3589241931406375882
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_42: -1457060840816874235
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_43: 876110528848473567
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_44: 1858272727317588279
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_45: 4094676105957034869
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_46: -5284690576069619679
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_47: -6903979483077472322
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_5: 7473132985773357389
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_6: 5500187491175458059
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_7: -1611933414569870366
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_8: 263158345969461140
+      Sprite_sheet_galinha_Corrigido_talvezAgrVai_9: -411393179664582521
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
