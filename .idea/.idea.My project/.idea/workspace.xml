@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a92dc72c-e129-40e1-b2c5-8bd08d92a881" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Basic-Feature" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MTOtaku&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MTOtaku/Por-que-a-galinha-atravessou-o-cemiterio.git&quot;,
+    &quot;accountId&quot;: &quot;1902379d-6a82-4950-b0e1-61f5c555409c&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/AnimationController/Attack_Full_Shoes.anim" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Art.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Art/galinha.png.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Charts/Fase_template.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Charts/chart_data_alpha.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Environment.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Environment.prefab.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/EventSystem.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/BaseScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Charts Scenes/Chart Template 2.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Charts Scenes/Chart Template 3.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Charts Scenes/Chart Template.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Gameplay.unity.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameOverManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/HealthBarTextManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/PauseManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/RhythmSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Notes/SongEndMarker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sfx/HitEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Recovery/0.unity" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3ImR6mvD0yLxsyzZJCVrc3oLHEs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Device#class com.jetbrains.rider.plugins.unity.run.devices.UnityEditorDeviceKind#com.jetbrains.rider.plugins.unity.run.devices.UnityDevicesProvider#Unity Attach To: Attach to&quot;: &quot;Unity Editor&quot;,
+    &quot;DeviceKind#com.jetbrains.rider.plugins.unity.run.devices.UnityDevicesProvider&quot;: &quot;Unity Editor&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Unity Attach To.Attach to.executor&quot;: &quot;Debug&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Unity Attach To.Attach to">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\mateu\My project&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\mateu\My project" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\mateu\My project&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\mateu\My project" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a92dc72c-e129-40e1-b2c5-8bd08d92a881" name="Changes" comment="" />
+      <created>1788367586262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788367586262</updated>
+      <workItem from="1788367587544" duration="2000" />
+      <workItem from="1788367612149" duration="12000" />
+      <workItem from="1788367699963" duration="24650000" />
+      <workItem from="1788451242390" duration="25492000" />
+      <workItem from="1788543800014" duration="3348000" />
+      <workItem from="1788548320105" duration="17416000" />
+      <workItem from="1788660720802" duration="15000" />
+      <workItem from="1788797361288" duration="6377000" />
+      <workItem from="1788835829740" duration="4891000" />
+      <workItem from="1788885622328" duration="18468000" />
+      <workItem from="1788932952181" duration="895000" />
+      <workItem from="1788933873997" duration="112000" />
+      <workItem from="1788934016446" duration="32000" />
+      <workItem from="1788934128095" duration="63000" />
+    </task>
+    <task id="LOCAL-00001" summary="Criado o basico dos codigos, falta o Controller do Norget para testar os botões, Supostamente a mecanica das notas está funcional">
+      <option name="closed" value="true" />
+      <created>1788372925172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788372925172</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adicionando no commit que faltou alguns arquivos">
+      <option name="closed" value="true" />
+      <created>1788373053776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1788373053776</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adicionado NoteHittable.cs e NoteTrackScroller.cs para serem testados depois, alterado InputManager.cs (porém com 1 erro, preciso testar) e criado NorgetController.cs mesmo vazio">
+      <option name="closed" value="true" />
+      <created>1788378498647</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1788378498647</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Concertado Erros de escrita e de import (letra fora de ordem)">
+      <option name="closed" value="true" />
+      <created>1788378962741</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1788378962741</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Mudança Geral no sistema de vir as notas, Agora utilizam posicionamento automatico no mundo que voce pode definir sua posição com o tempo">
+      <option name="closed" value="true" />
+      <created>1788385229392</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1788385229392</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Alterado Tag na unity e feito o Hit funcionar nas notas">
+      <option name="closed" value="true" />
+      <created>1788387220800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1788387220800</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adicionado Sistema de Judgement Perfect/Good funcional depedente do tamanho da hitzone">
+      <option name="closed" value="true" />
+      <created>1788387960740</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1788387960740</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Removido Codigo inutil, adicionado NoteType para manter os tipos de nota">
+      <option name="closed" value="true" />
+      <created>1788388501063</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1788388501063</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adicionado O NoteType.cs que faltou no commit anterior">
+      <option name="closed" value="true" />
+      <created>1788388953275</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1788388953275</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adicionado novas files pro commit, Importado Chart Template e seus derivados">
+      <option name="closed" value="true" />
+      <created>1788453484963</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1788453484963</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Criado o Norget (apenas com placehold) com função de pular e reagir aos hit das notas (Ainda falta animações e etc) criado obstaluco (falta terminar por completo) alterado JudgementSystem.cs pra aplicar as animações do norget">
+      <option name="closed" value="true" />
+      <created>1788461709667</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1788461709667</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adicionado função de desviar de obstaculo aereo e ground, feito a colisão com o Norget (player)">
+      <option name="closed" value="true" />
+      <created>1788475082038</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1788475082038</updated>
+    </task>
+    <task id="LOCAL-00013" summary="alterado e adicionado a função de hold, alterado o sistema de input">
+      <option name="closed" value="true" />
+      <created>1788542371378</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1788542371378</updated>
+    </task>
+    <task id="LOCAL-00014" summary="colocando apenas pra tirar o erro chato de untracked files e erro de merge">
+      <option name="closed" value="true" />
+      <created>1788544227679</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1788544227679</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <option name="closed" value="true" />
+      <created>1788544634495</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1788544634495</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge do main neste commit">
+      <option name="closed" value="true" />
+      <created>1788546668026</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1788546668026</updated>
+    </task>
+    <task id="LOCAL-00017" summary="removido linha inutil em Obstacle.cs e NoteHittable.cs, pequeno print no JudgementSystem.cs para ver se funciona a vida">
+      <option name="closed" value="true" />
+      <created>1788552185175</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1788552185175</updated>
+    </task>
+    <task id="LOCAL-00018" summary="alterado tempo">
+      <option name="closed" value="true" />
+      <created>1788555548769</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1788555548769</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Unificado o sistema de BPM, SecPerBeat, UnitsPerBeat, Speed">
+      <option name="closed" value="true" />
+      <created>1788559069860</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1788559069860</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Feito GameOver e Restart no template, porém com um bug no restart (A musica da play mas o resto não)">
+      <option name="closed" value="true" />
+      <created>1788561459068</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1788561459068</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Corrigido Bug de não reiniciar">
+      <option name="closed" value="true" />
+      <created>1788564620070</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1788564620070</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Adicionado Uma movimentação de tempo no ar (para ajudar na animação depois)">
+      <option name="closed" value="true" />
+      <created>1788565813655</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1788565813655</updated>
+    </task>
+    <task id="LOCAL-00023" summary="alterado como funciona o GameOverManager pra incluir o Score, adicionado Perfect, Good e miss count no JudgementSystem.cs, adicionado função de voltar pro chão rapido com ground attack no NorgetController.cs">
+      <option name="closed" value="true" />
+      <created>1788835924033</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1788835924033</updated>
+    </task>
+    <task id="LOCAL-00024" summary="files do unity pra serem atualizadas / voltadas atras pra caso dê erro no proximo ajuste">
+      <option name="closed" value="true" />
+      <created>1788835987063</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1788835987063</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Alterado e Adicionado tela de pause no Chart Template, também foi organizado por pastas e managers os game objects do jogo">
+      <option name="closed" value="true" />
+      <created>1788839020393</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1788839020393</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feito mapeamento por MIDI (Mas ai depende do Sound Designer de separar corretamente) E criado o Chart Template 2 que utiliza os posicionamentos do MIDI">
+      <option name="closed" value="true" />
+      <created>1788840699943</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1788840699943</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Feito alternancia de animação e animation controller, feito barra de vida, feito tela de vitoria e fim de jogo, adicionado sprites do norget">
+      <option name="closed" value="true" />
+      <created>1788903709860</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1788903709860</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Conectado animação de ataque e sfx (audio), &quot;feito&quot; a animação de correr e atacar e pular conectarem &quot;corretamente&quot; (Por algum motivo, no animator uma animação especifica está tentando roubar o espaço da outra mesmo com as suas condições definidas)">
+      <option name="closed" value="true" />
+      <created>1788921205254</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1788921205254</updated>
+    </task>
+    <task id="LOCAL-00029" summary="*Envio de arquivos que faltaram* - &gt; Conectado animação de ataque e sfx (audio), &quot;feito&quot; a animação de correr e atacar e pular conectarem &quot;corretamente&quot; (Por algum motivo, no animator uma animação especifica está tentando roubar o espaço da outra mesmo com as suas condições definidas)">
+      <option name="closed" value="true" />
+      <created>1788921261981</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1788921261981</updated>
+    </task>
+    <task id="LOCAL-00030" summary="removido audio template">
+      <option name="closed" value="true" />
+      <created>1788933520051</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1788933520051</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Mudança Geral no sistema de vir as notas, Agora utilizam posicionamento automatico no mundo que voce pode definir sua posição com o tempo" />
+    <MESSAGE value="Alterado Tag na unity e feito o Hit funcionar nas notas" />
+    <MESSAGE value="Adicionado Sistema de Judgement Perfect/Good funcional depedente do tamanho da hitzone" />
+    <MESSAGE value="Removido Codigo inutil, adicionado NoteType para manter os tipos de nota" />
+    <MESSAGE value="Adicionado O NoteType.cs que faltou no commit anterior" />
+    <MESSAGE value="Adicionado novas files pro commit, Importado Chart Template e seus derivados" />
+    <MESSAGE value="Criado o Norget (apenas com placehold) com função de pular e reagir aos hit das notas (Ainda falta animações e etc) criado obstaluco (falta terminar por completo) alterado JudgementSystem.cs pra aplicar as animações do norget" />
+    <MESSAGE value="Adicionado função de desviar de obstaculo aereo e ground, feito a colisão com o Norget (player)" />
+    <MESSAGE value="alterado e adicionado a função de hold, alterado o sistema de input" />
+    <MESSAGE value="colocando apenas pra tirar o erro chato de untracked files e erro de merge" />
+    <MESSAGE value="Merge do main neste commit" />
+    <MESSAGE value="removido linha inutil em Obstacle.cs e NoteHittable.cs, pequeno print no JudgementSystem.cs para ver se funciona a vida" />
+    <MESSAGE value="alterado tempo" />
+    <MESSAGE value="Unificado o sistema de BPM, SecPerBeat, UnitsPerBeat, Speed" />
+    <MESSAGE value="Feito GameOver e Restart no template, porém com um bug no restart (A musica da play mas o resto não)" />
+    <MESSAGE value="Corrigido Bug de não reiniciar" />
+    <MESSAGE value="Adicionado Uma movimentação de tempo no ar (para ajudar na animação depois)" />
+    <MESSAGE value="alterado como funciona o GameOverManager pra incluir o Score, adicionado Perfect, Good e miss count no JudgementSystem.cs, adicionado função de voltar pro chão rapido com ground attack no NorgetController.cs" />
+    <MESSAGE value="files do unity pra serem atualizadas / voltadas atras pra caso dê erro no proximo ajuste" />
+    <MESSAGE value="Alterado e Adicionado tela de pause no Chart Template, também foi organizado por pastas e managers os game objects do jogo" />
+    <MESSAGE value="feito mapeamento por MIDI (Mas ai depende do Sound Designer de separar corretamente) E criado o Chart Template 2 que utiliza os posicionamentos do MIDI" />
+    <MESSAGE value="Feito alternancia de animação e animation controller, feito barra de vida, feito tela de vitoria e fim de jogo, adicionado sprites do norget" />
+    <MESSAGE value="Conectado animação de ataque e sfx (audio), &quot;feito&quot; a animação de correr e atacar e pular conectarem &quot;corretamente&quot; (Por algum motivo, no animator uma animação especifica está tentando roubar o espaço da outra mesmo com as suas condições definidas)" />
+    <MESSAGE value="*Envio de arquivos que faltaram* - &gt; Conectado animação de ataque e sfx (audio), &quot;feito&quot; a animação de correr e atacar e pular conectarem &quot;corretamente&quot; (Por algum motivo, no animator uma animação especifica está tentando roubar o espaço da outra mesmo com as suas condições definidas)" />
+    <MESSAGE value="removido audio template" />
+    <option name="LAST_COMMIT_MESSAGE" value="removido audio template" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
