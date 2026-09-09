@@ -7,6 +7,12 @@ public class JudgementSystem : MonoBehaviour {
     public static JudgementSystem Instance;
     public NorgetController norget; //Colocar no inspetor dps
 
+    [Header("Efeitos de acerto/Erro")] 
+    public Transform hitZone;
+    public GameObject perfectEffectPrefab;
+    public GameObject goodEffectPrefab;
+    public GameObject missEffectPrefab;
+    
     public int score = 0;
     public int combo = 0;
     public float maxHealth = 100f;
@@ -27,6 +33,8 @@ public class JudgementSystem : MonoBehaviour {
         if (judgement == Judgement.Perfect) PerfectCount++; else GoodCount++;
         
         print($"{judgement} Hit - Judgement System");
+        SpawnEffect(judgement);
+        
         if (norget != null) {
             norget.PlayReaction(judgement);
             if (note.type == NoteType.Air) norget.Jump();
@@ -38,6 +46,7 @@ public class JudgementSystem : MonoBehaviour {
         score += 75;
         PerfectCount++;
         print($"Desvio - Judgement System");
+        SpawnEffect(Judgement.Perfect);
         if (norget != null) norget.PlayReaction(Judgement.Perfect);
     }
     
@@ -47,6 +56,7 @@ public class JudgementSystem : MonoBehaviour {
         MissCount++;
         health -= healthLossOnMiss;
         print($"Vida atual: {health}, antes era: {oldHealth}");
+        SpawnEffect(Judgement.Miss);
         
         if (norget != null) norget.PlayReaction(Judgement.Miss);
         
@@ -54,4 +64,16 @@ public class JudgementSystem : MonoBehaviour {
             GameOverManager.Instance.ShowGameOver();
         }
     }
+
+    private void SpawnEffect(Judgement judgement){
+        if (hitZone == null) return;
+
+        GameObject prefab = judgement switch {
+            Judgement.Perfect => perfectEffectPrefab,
+            Judgement.Good => goodEffectPrefab,
+            _ => missEffectPrefab
+        };
+        if (prefab != null) Instantiate(prefab, hitZone.position, Quaternion.identity);
+    }
+    
 }

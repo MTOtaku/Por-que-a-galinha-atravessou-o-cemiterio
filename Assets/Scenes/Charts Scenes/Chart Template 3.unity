@@ -12890,6 +12890,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JudgementSystem
   norget: {fileID: 1615786686}
+  hitZone: {fileID: 1422473683}
+  perfectEffectPrefab: {fileID: 1181567403090575206, guid: d9f1e4f33a267184aa5f9e016c2e7370, type: 3}
+  goodEffectPrefab: {fileID: 380592875143180650, guid: 230a67658d0c39047805a77045d528ff, type: 3}
+  missEffectPrefab: {fileID: 606557837687116342, guid: d15bf585b6a053345a66ec0e18c39097, type: 3}
   score: 0
   combo: 0
   maxHealth: 100
@@ -21249,6 +21253,10 @@ PrefabInstance:
     - target: {fileID: 1322417603328824484, guid: b77a11dc87879de4cbc39e7ee09483df, type: 3}
       propertyPath: m_Name
       value: Note_Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1322417603328824484, guid: b77a11dc87879de4cbc39e7ee09483df, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8026606265065706657, guid: b77a11dc87879de4cbc39e7ee09483df, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47915,6 +47923,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 578d2bdffbb5d7142910201e3a106190, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NorgetController
+--- !u!95 &1615786689 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1463134747258712146, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
+  m_PrefabInstance: {fileID: 8466103661205033909}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1618088506 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4436224790990068765, guid: 6cd7671be2f62ad45b9625145b520c2d, type: 3}
@@ -62448,7 +62461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 512668271567539367, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: m_Size.y
-      value: 23.26175
+      value: 38.923553
       objectReference: {fileID: 0}
     - target: {fileID: 512668271567539367, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: m_Offset.x
@@ -62456,7 +62469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 512668271567539367, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: m_Offset.y
-      value: 5.13941
+      value: 7.8133807
       objectReference: {fileID: 0}
     - target: {fileID: 512668271567539367, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -62468,11 +62481,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 512668271567539367, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 3.51
+      value: 11.4800005
       objectReference: {fileID: 0}
     - target: {fileID: 512668271567539367, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 4.73
+      value: 12.500473
       objectReference: {fileID: 0}
     - target: {fileID: 1209657687201101728, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: m_Name
@@ -62482,17 +62495,37 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6410416206888842365, guid: eab3619ccf3369f42851be8d3286db01, type: 3}
+    - target: {fileID: 4042218608873173087, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1615786689}
+    - target: {fileID: 4042218608873173087, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
+      propertyPath: jumpHeight
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158182928481897102, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3312375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158182928481897102, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.301125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158182928481897102, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.60225
+      objectReference: {fileID: 0}
     - target: {fileID: 8158182928481897102, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.42
       objectReference: {fileID: 0}
     - target: {fileID: 8158182928481897102, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.31
+      value: -5.5
       objectReference: {fileID: 0}
     - target: {fileID: 8158182928481897102, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0000036673252
+      value: -0.0000036667
       objectReference: {fileID: 0}
     - target: {fileID: 8158182928481897102, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: m_LocalRotation.w
