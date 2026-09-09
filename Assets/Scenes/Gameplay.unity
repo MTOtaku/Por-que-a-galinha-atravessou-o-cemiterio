@@ -2707,7 +2707,7 @@ MonoBehaviour:
   environmentObject: {fileID: 1293805946}
   gameplayElementsContainer: {fileID: 944736717}
   tutorialSceneName: Tutorial
-  gameplaySceneName: Gameplay
+  gameplaySceneName: Chart Template 3
 --- !u!4 &1100050429
 Transform:
   m_ObjectHideFlags: 0
@@ -2952,7 +2952,7 @@ SpriteRenderer:
   m_Size: {x: 7.93, y: 9.320353}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
 --- !u!114 &1448839531
 MonoBehaviour:
@@ -2966,9 +2966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff651fb728ba7a04ebebb6f61cfbba49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  downLaneY: -3
-  upLaneY: -0.5
-  jumpDuration: 0.8
+  maxHealth: 850
 --- !u!114 &1448839532
 MonoBehaviour:
   m_ObjectHideFlags: 0

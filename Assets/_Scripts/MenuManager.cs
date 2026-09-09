@@ -72,6 +72,8 @@ public class MenuManager : MonoBehaviour
     public void StartGameDirectly()
     {
         Time.timeScale = 1f;
+
+        SceneManager.LoadScene(gameplaySceneName);
         
         if (mainMenuPanel != null) mainMenuPanel.SetActive(false);
         if (settingsPanel != null) mainMenuPanel.SetActive(false);

@@ -1286,7 +1286,7 @@ MonoBehaviour:
   buttonLabelText: {fileID: 982439508}
   countdownText: {fileID: 1661825599}
   environmentObject: {fileID: 646203682}
-  gameplaySceneName: Gameplay
+  gameplaySceneName: Chart Template 3
 --- !u!4 &1285405827
 Transform:
   m_ObjectHideFlags: 0
@@ -1689,6 +1689,7 @@ MonoBehaviour:
   settingsPanel: {fileID: 0}
   inGameHudPanel: {fileID: 0}
   environmentObject: {fileID: 646203682}
+  gameplayElementsContainer: {fileID: 0}
   tutorialSceneName: Tutorial
   gameplaySceneName: Gameplay
 --- !u!4 &1972504163
