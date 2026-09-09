@@ -32586,6 +32586,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8026606265065706657, guid: b77a11dc87879de4cbc39e7ee09483df, type: 3}
   m_PrefabInstance: {fileID: 1120299003}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1121314832 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 47838271142879203, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
+  m_PrefabInstance: {fileID: 8400379897555673684}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1128248230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62378,6 +62383,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe6b63d4da52a7941b5afb7b525e7911, type: 3}
+--- !u!1001 &8400379897555673684
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 47838271142879203, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 301006812457174794, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.522276
+      objectReference: {fileID: 0}
+    - target: {fileID: 301006812457174794, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.599152
+      objectReference: {fileID: 0}
+    - target: {fileID: 301006812457174794, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 301006812457174794, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 301006812457174794, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 301006812457174794, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 301006812457174794, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 301006812457174794, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 301006812457174794, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 301006812457174794, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7656469135005906710, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
+      propertyPath: m_Name
+      value: sfx_jump_short
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8be31ece45b4b84a921a95eb5a5ddd7, type: 3}
 --- !u!1001 &8466103661205033909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62431,9 +62497,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1615786689}
     - target: {fileID: 4042218608873173087, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: ce9629ac0a21b164d9fb1f9070847f9d, type: 3}
+    - target: {fileID: 4042218608873173087, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
+      propertyPath: dodgeSound
+      value: 
+      objectReference: {fileID: 8300000, guid: ce9629ac0a21b164d9fb1f9070847f9d, type: 3}
+    - target: {fileID: 4042218608873173087, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: jumpHeight
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4042218608873173087, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1121314832}
     - target: {fileID: 4042218608873173087, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: riseDuration
       value: 0.25
@@ -62565,3 +62643,4 @@ SceneRoots:
   - {fileID: 879560871}
   - {fileID: 1129701474}
   - {fileID: 2068661057}
+  - {fileID: 8400379897555673684}

@@ -37,7 +37,8 @@ public class JudgementSystem : MonoBehaviour {
         
         if (norget != null) {
             norget.PlayReaction(judgement);
-            if (note.type == NoteType.Air) norget.Jump();
+            
+            if (note.type == NoteType.Air) norget.Jump(true);
         }
     }
 
@@ -47,7 +48,7 @@ public class JudgementSystem : MonoBehaviour {
         PerfectCount++;
         print($"Desvio - Judgement System");
         SpawnEffect(Judgement.Perfect);
-        if (norget != null) norget.PlayReaction(Judgement.Perfect);
+        if (norget != null) norget.PlayDodgeSound();
     }
     
     public void RegisterMiss() {

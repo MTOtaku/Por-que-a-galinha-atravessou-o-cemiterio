@@ -25,6 +25,11 @@ public class NorgetController : MonoBehaviour {
    [Tooltip("Abaixo desses % vai pra Half Shoes")]
    public float healthThresholdRun3 = 30f;
 
+   [Header("Audio")] 
+   public AudioSource audioSource;
+   public AudioClip jumpSound;
+   public AudioClip dodgeSound;
+   
    [Header("Input System")]
    public InputActionReference attackUpAction;
    public InputActionReference attackDownAction;
@@ -81,15 +86,21 @@ public class NorgetController : MonoBehaviour {
       if (IsAirbone) LandInstantly();
    }
 
-   public void Jump(){
+   public void Jump(bool fromNote = false){
       print("Jump");
       if (jumpRoutine != null) StopCoroutine(jumpRoutine);
+
+      if (!fromNote && audioSource != null && jumpSound != null) {
+         audioSource.PlayOneShot(jumpSound);
+      }
+      
       jumpRoutine = StartCoroutine(JumpRoutine());
    }
 
    private IEnumerator JumpRoutine(){
       IsAirbone = true;
       IsMidAir = false;
+      
       if (animator != null) animator.SetBool("IsAirbone", true);
 
       Vector3 peakPosition = groundPosition + Vector3.up * jumpHeight;
@@ -135,5 +146,13 @@ public class NorgetController : MonoBehaviour {
       IsAirbone = false;
       IsMidAir = false;
       if (animator != null) animator.SetBool("IsAirbone", false);
+   }
+
+   public void PlaySound(AudioClip clip){
+      if (audioSource != null && clip != null) audioSource.PlayOneShot(clip); 
+   }
+
+   public void PlayDodgeSound(){
+      if (audioSource != null && dodgeSound != null) audioSource.PlayOneShot(dodgeSound);
    }
 }
