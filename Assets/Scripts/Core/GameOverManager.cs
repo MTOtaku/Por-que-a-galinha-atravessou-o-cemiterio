@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameOverManager : MonoBehaviour {
     public static GameOverManager Instance;
-
+    public NorgetController norget;
+    
     [Header("UI")]
     public GameObject gameOverPanel;
     public TMP_Text scoreText;
@@ -39,5 +41,20 @@ public class GameOverManager : MonoBehaviour {
     private void OnSceneReload(Scene scene, LoadSceneMode mode){
         Time.timeScale = 1f; 
         SceneManager.sceneLoaded -= OnSceneReload;
+    }
+
+    public void StartDeathSequence(){
+        Time.timeScale = 0f;
+        
+        if (Conductor.Instance != null && Conductor.Instance.musicSource != null)
+            Conductor.Instance.musicSource.Pause();
+
+        StartCoroutine(WaitForDeathAnimation());
+    }
+
+    private IEnumerator WaitForDeathAnimation(){
+        yield return new WaitForSecondsRealtime(1.0f);
+
+        ShowGameOver();
     }
 }

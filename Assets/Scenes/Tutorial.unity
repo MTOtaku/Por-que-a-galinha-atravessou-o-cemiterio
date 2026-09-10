@@ -230,6 +230,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1085759921019397024, guid: 05bfa95a99a4d0543b95259939767cf1, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5808032774490059915, guid: 05bfa95a99a4d0543b95259939767cf1, type: 3}
       propertyPath: m_Name
       value: menu-tutorial_loop

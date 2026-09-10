@@ -56,14 +56,16 @@ public class JudgementSystem : MonoBehaviour {
         combo = 0;
         MissCount++;
         health -= healthLossOnMiss;
-        print($"Vida atual: {health}, antes era: {oldHealth}");
+        
         SpawnEffect(Judgement.Miss);
-        
-        if (norget != null) norget.PlayReaction(Judgement.Miss);
-        
-        if (health <= 0) {
-            GameOverManager.Instance.ShowGameOver();
+
+        if (norget != null) {
+            norget.PlayReaction(Judgement.Miss);
         }
+        
+       if (health <= 0) {
+           norget.Die();
+       }
     }
 
     private void SpawnEffect(Judgement judgement){
