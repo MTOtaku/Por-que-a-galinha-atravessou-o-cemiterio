@@ -1,0 +1,1379 @@
+fileFormatVersion: 2
+guid: e484d1cc42eceec49a7b6256fcff0c60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5306754417711573315
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_0
+  - first:
+      213: -7545280815772884134
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_1
+  - first:
+      213: -8431347773211243341
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_2
+  - first:
+      213: 8576536679863223265
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_3
+  - first:
+      213: 757590479638425288
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_4
+  - first:
+      213: 9179031094892695953
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_5
+  - first:
+      213: 3186326880529319794
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_6
+  - first:
+      213: -3343425238004359960
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_7
+  - first:
+      213: 3096676792145068916
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_8
+  - first:
+      213: 2284522540037713029
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_9
+  - first:
+      213: -256148655671721477
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_10
+  - first:
+      213: 8666881713890659207
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_11
+  - first:
+      213: -5619871542585778985
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_12
+  - first:
+      213: 3070127200335123070
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_13
+  - first:
+      213: 5706075452122416743
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_14
+  - first:
+      213: 4183439663648473403
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_15
+  - first:
+      213: -4741274133917091242
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_16
+  - first:
+      213: 2343521292439074309
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_17
+  - first:
+      213: 579118579995880660
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_18
+  - first:
+      213: 5453935746203950605
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_19
+  - first:
+      213: -3868477749672221155
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_20
+  - first:
+      213: 5276049061957761258
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_21
+  - first:
+      213: -1816692880789603122
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_22
+  - first:
+      213: 8000455974138724100
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_23
+  - first:
+      213: -1731736076364937657
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_24
+  - first:
+      213: 981441460442142594
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_25
+  - first:
+      213: -1227229883497383035
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_26
+  - first:
+      213: 8545120163192554667
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_27
+  - first:
+      213: -2522688610740892795
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_28
+  - first:
+      213: 3101259173749921759
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_29
+  - first:
+      213: -9212384801484189947
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_30
+  - first:
+      213: 681553707396511059
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_31
+  - first:
+      213: 8790678654643583326
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_32
+  - first:
+      213: -2599019265888725927
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_33
+  - first:
+      213: -1569679749149034691
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_34
+  - first:
+      213: 2003613361852631445
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_35
+  - first:
+      213: 4834959706938235003
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_36
+  - first:
+      213: 6129368685464631540
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_37
+  - first:
+      213: -5391059123482453777
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_38
+  - first:
+      213: 8418718602061510270
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_39
+  - first:
+      213: 6733720242589983515
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_40
+  - first:
+      213: 5299361796947316381
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_41
+  - first:
+      213: -6186809184610851929
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_42
+  - first:
+      213: -1447243891809161266
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_43
+  - first:
+      213: 331483213030376675
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_44
+  - first:
+      213: -3929838769758529837
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_45
+  - first:
+      213: -1726175943109294564
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_46
+  - first:
+      213: -3769089633142707790
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_47
+  - first:
+      213: 2150671234179468710
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_48
+  - first:
+      213: 6893997174850302874
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_49
+  - first:
+      213: 4870972488555180306
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_50
+  - first:
+      213: -747735830217446673
+    second: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4256
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349eee9c60165a940800000000000000
+      internalID: 5306754417711573315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_1
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 4256
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53a94d1317c94790800000000000000
+      internalID: -7545280815772884134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_2
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 4256
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc86f71fd5ddfa80800000000000000
+      internalID: -8431347773211243341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_3
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 4256
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e30b5e7baaf50770800000000000000
+      internalID: 8576536679863223265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_4
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 4256
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cee0100780838a00800000000000000
+      internalID: 757590479638425288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_5
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 4256
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1911851f528726f70800000000000000
+      internalID: 9179031094892695953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_6
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 4256
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2778a3c7a6b183c20800000000000000
+      internalID: 3186326880529319794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_7
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 4256
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec9ca3d574c991d0800000000000000
+      internalID: -3343425238004359960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3724
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473c004b22b99fa20800000000000000
+      internalID: 3096676792145068916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_9
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 3724
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c2250752144bf10800000000000000
+      internalID: 2284522540037713029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_10
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 3724
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf14ef0a72af17cf0800000000000000
+      internalID: -256148655671721477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_11
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 3724
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b08caeff2f64870800000000000000
+      internalID: 8666881713890659207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_12
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 3724
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc19dc7b943202b0800000000000000
+      internalID: -5619871542585778985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_13
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 3724
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e725d372c684b9a20800000000000000
+      internalID: 3070127200335123070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_14
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 3724
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7664551446d003f40800000000000000
+      internalID: 5706075452122416743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_15
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 3724
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b310c0395309e0a30800000000000000
+      internalID: 4183439663648473403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3192
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65abf19ab4c933eb0800000000000000
+      internalID: -4741274133917091242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_17
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 3192
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506356fe23cd58020800000000000000
+      internalID: 2343521292439074309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_18
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 3192
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcab7bb741790800800000000000000
+      internalID: 579118579995880660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_19
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 3192
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e9a4c3aa540bb40800000000000000
+      internalID: 5453935746203950605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_20
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 3192
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16e8459bf7605ac0800000000000000
+      internalID: -3868477749672221155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_21
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 3192
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8768b0baa483940800000000000000
+      internalID: 5276049061957761258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_22
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 3192
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccfd8e337fc9c6e0800000000000000
+      internalID: -1816692880789603122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_23
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 3192
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fb0bbf154570f60800000000000000
+      internalID: 8000455974138724100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2660
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7460a83b633a7f7e0800000000000000
+      internalID: -1731736076364937657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_25
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 2660
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2879e71fec7ce9d00800000000000000
+      internalID: 981441460442142594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_26
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 2660
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bf4605ce008fee0800000000000000
+      internalID: -1227229883497383035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_27
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 2660
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4ce12b38d569670800000000000000
+      internalID: 8545120163192554667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2128
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b8dd5031c9dfcd0800000000000000
+      internalID: -2522688610740892795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_29
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 2128
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd719cf89c2e90b20800000000000000
+      internalID: 3101259173749921759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_30
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 2128
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fc35515d8072080800000000000000
+      internalID: -9212384801484189947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_31
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 2128
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35538b06c7d557900800000000000000
+      internalID: 681553707396511059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1596
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59b3a059a3cef970800000000000000
+      internalID: 8790678654643583326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_33
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1596
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9545e447fbd6eebd0800000000000000
+      internalID: -2599019265888725927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_34
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1596
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37f8dca590673ae0800000000000000
+      internalID: -1569679749149034691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_35
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1596
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599c37cacb34ecb10800000000000000
+      internalID: 2003613361852631445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1064
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78516b9c3a391340800000000000000
+      internalID: 4834959706938235003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_37
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1064
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8b58a3854ef0550800000000000000
+      internalID: 6129368685464631540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_38
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1064
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe813bd4a4c1f25b0800000000000000
+      internalID: -5391059123482453777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_39
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1064
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7679dbd6fb45d470800000000000000
+      internalID: 8418718602061510270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13ee6442eaf27d50800000000000000
+      internalID: 6733720242589983515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_41
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 532
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e02532a7d1b8940800000000000000
+      internalID: 5299361796947316381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_42
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 532
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3652263d9042aa0800000000000000
+      internalID: -6186809184610851929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_43
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 532
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf6c55295b5aebe0800000000000000
+      internalID: -1447243891809161266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e44ea9d93aa99400800000000000000
+      internalID: 331483213030376675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_45
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 0
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d61cf7c5786679c0800000000000000
+      internalID: -3929838769758529837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_46
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 0
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16452b10246b08e0800000000000000
+      internalID: -1726175943109294564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_sheet_galinha_Corrigido_pfvrAgrVai_47
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 0
+        width: 502
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9ebe9b2f081bbc0800000000000000
+      internalID: -3769089633142707790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 24c9673d854443448a59fa05646551d6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":9.0},"gridSpriteSize":{"x":502.0,"y":532.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_0: 5306754417711573315
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_1: -7545280815772884134
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_10: -256148655671721477
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_11: 8666881713890659207
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_12: -5619871542585778985
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_13: 3070127200335123070
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_14: 5706075452122416743
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_15: 4183439663648473403
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_16: -4741274133917091242
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_17: 2343521292439074309
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_18: 579118579995880660
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_19: 5453935746203950605
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_2: -8431347773211243341
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_20: -3868477749672221155
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_21: 5276049061957761258
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_22: -1816692880789603122
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_23: 8000455974138724100
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_24: -1731736076364937657
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_25: 981441460442142594
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_26: -1227229883497383035
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_27: 8545120163192554667
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_28: -2522688610740892795
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_29: 3101259173749921759
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_3: 8576536679863223265
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_30: -9212384801484189947
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_31: 681553707396511059
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_32: 8790678654643583326
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_33: -2599019265888725927
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_34: -1569679749149034691
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_35: 2003613361852631445
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_36: 4834959706938235003
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_37: 6129368685464631540
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_38: -5391059123482453777
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_39: 8418718602061510270
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_4: 757590479638425288
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_40: 6733720242589983515
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_41: 5299361796947316381
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_42: -6186809184610851929
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_43: -1447243891809161266
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_44: 331483213030376675
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_45: -3929838769758529837
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_46: -1726175943109294564
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_47: -3769089633142707790
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_5: 9179031094892695953
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_6: 3186326880529319794
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_7: -3343425238004359960
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_8: 3096676792145068916
+      Sprite_sheet_galinha_Corrigido_pfvrAgrVai_9: 2284522540037713029
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
