@@ -58,7 +58,7 @@ public class NorgetController : MonoBehaviour {
 
       if (newState != currentRunState) {
          currentRunState = newState;
-         animator.SetInteger("RunState", newState);
+         animator.SetFloat("RunState", newState);
       }
    }
 

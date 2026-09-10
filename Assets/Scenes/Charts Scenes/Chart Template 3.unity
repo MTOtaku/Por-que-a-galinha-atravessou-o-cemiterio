@@ -62488,6 +62488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Norget
       objectReference: {fileID: 0}
+    - target: {fileID: 1463134747258712146, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 879d14cf6e48b4b429034e8377ad0e05, type: 2}
     - target: {fileID: 1890107361167151572, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: m_Sprite
       value: 
