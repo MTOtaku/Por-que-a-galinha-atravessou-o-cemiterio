@@ -1347,7 +1347,7 @@ MonoBehaviour:
   buttonLabelText: {fileID: 982439508}
   countdownText: {fileID: 1661825599}
   environmentObject: {fileID: 646203682}
-  gameplaySceneName: Chart Template 3
+  gameplaySceneName: Fase_Principal_Alpha
 --- !u!4 &1285405827
 Transform:
   m_ObjectHideFlags: 0

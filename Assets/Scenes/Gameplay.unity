@@ -2940,7 +2940,7 @@ MonoBehaviour:
   environmentObject: {fileID: 1293805946}
   gameplayElementsContainer: {fileID: 944736717}
   tutorialSceneName: Tutorial
-  gameplaySceneName: Chart Template 3
+  gameplaySceneName: Fase_Principal_Alpha
 --- !u!4 &1100050429
 Transform:
   m_ObjectHideFlags: 0
