@@ -17,8 +17,8 @@ public class Obstacle : MonoBehaviour {
         
         bool desviou = 
             (type == NoteType.Ground && norget.IsAirbone) || 
-            (type == NoteType.Air && !norget.IsAirbone) || 
-            (type == NoteType.Air && norget.IsMidAir);
+            (type == NoteType.Air && !norget.IsAirbone) ;//|| 
+            //(type == NoteType.Air && norget.IsMidAir);
 
         if (desviou) {
             JudgementSystem.Instance.RegisterDodge();

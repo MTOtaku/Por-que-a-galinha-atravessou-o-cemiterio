@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 04eb2156c0ad8704792dc2fd284e307c
+guid: aa3b053ccd92eff43a9bdb168816436c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8783361803766183307
-    second: Sprite_sheet_gargula_0
-  - first:
-      213: 3220586848426927233
-    second: Sprite_sheet_gargula_1
-  - first:
-      213: -1297786651712180324
-    second: Sprite_sheet_gargula_2
-  - first:
-      213: 3645024551283302832
-    second: Sprite_sheet_gargula_3
+      213: -8351226360405994867
+    second: Dinossauro Personal trainer_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -109,89 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite_sheet_gargula_0
+      name: Dinossauro Personal trainer_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 502
-        height: 532
+        x: 127
+        y: 323
+        width: 580
+        height: 606
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b85b7373605c4e970800000000000000
-      internalID: 8783361803766183307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_sheet_gargula_1
-      rect:
-        serializedVersion: 2
-        x: 502
-        y: 0
-        width: 502
-        height: 532
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 18428ccdca2d1bc20800000000000000
-      internalID: 3220586848426927233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_sheet_gargula_2
-      rect:
-        serializedVersion: 2
-        x: 1004
-        y: 0
-        width: 502
-        height: 532
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9fa37e8ae55dfde0800000000000000
-      internalID: -1297786651712180324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_sheet_gargula_3
-      rect:
-        serializedVersion: 2
-        x: 1506
-        y: 0
-        width: 502
-        height: 532
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b1a1d8648ab59230800000000000000
-      internalID: 3645024551283302832
+      spriteID: d825f153fdb7a1c80800000000000000
+      internalID: -8351226360405994867
       vertices: []
       indices: 
       edges: []
@@ -200,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6aa2b5f002b419449899df8ab854fded
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -208,14 +133,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":502.0,"y":532.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Sprite_sheet_gargula_0: 8783361803766183307
-      Sprite_sheet_gargula_1: 3220586848426927233
-      Sprite_sheet_gargula_2: -1297786651712180324
-      Sprite_sheet_gargula_3: 3645024551283302832
+      Dinossauro Personal trainer_0: -8351226360405994867
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
