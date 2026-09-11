@@ -11,6 +11,9 @@ public class VictoryManager : MonoBehaviour {
     public TMP_Text goodText;
     public TMP_Text missText;
 
+    [Header("HUD")]
+    public GameObject hud;
+
     [Header("Cenas")] public string menuSceneName = "Menu";
 
     void Awake(){
@@ -20,6 +23,7 @@ public class VictoryManager : MonoBehaviour {
 
     public void ShowVictory(){
         if (victoryPanel != null) victoryPanel.SetActive(true);
+        if (hud != null) hud.SetActive(false);
 
         if (JudgementSystem.Instance != null) {
             var js = JudgementSystem.Instance;
@@ -30,7 +34,7 @@ public class VictoryManager : MonoBehaviour {
         }
 
         Time.timeScale = 0f;
-        
+
         if (Conductor.Instance != null && Conductor.Instance.musicSource != null) Conductor.Instance.musicSource.Pause();
     }
 
