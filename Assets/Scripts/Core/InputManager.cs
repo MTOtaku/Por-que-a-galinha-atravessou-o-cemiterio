@@ -30,15 +30,13 @@ public class InputManager : MonoBehaviour {
     void OnAttackDown(InputAction.CallbackContext ctx) => TryHit(NoteType.Ground);
     
     void TryHit(NoteType type) {
-        NoteHittable[] notes = FindObjectsOfType<NoteHittable>();
-        foreach (var note in notes) {
+        foreach (var note in NoteHittable.Active) {
             if (note.type == type && note.shape == NoteShape.Tap && note.InHitZone) {
                 float distance = note.DistanceToHitZoneCenter();
                 Judgement judgement = distance <= perfectDistance ? Judgement.Perfect : Judgement.Good;
                 note.MarkAsHit();
                 JudgementSystem.Instance.RegisterHit(judgement, note);
                 return;
-                //Fora disso já é miss
             }
         }
     }

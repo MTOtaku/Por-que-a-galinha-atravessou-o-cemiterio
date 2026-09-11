@@ -3,12 +3,10 @@ using UnityEngine.InputSystem;
 using System.Collections;
 
 public class NorgetController : MonoBehaviour {
-   public NorgetController norget;
    public bool IsAirbone {get; private set;}
    public bool IsMidAir {get; private set;}
-   
    public bool IsDead {get; private set;}
-   
+
    [Header("Pulo")]
    [Tooltip("Tempo total no ar")]
    public float jumpDuration = 1.0f;
@@ -28,11 +26,11 @@ public class NorgetController : MonoBehaviour {
    [Tooltip("Abaixo desses % vai pra Half Shoes")]
    public float healthThresholdRun3 = 30f;
 
-   [Header("Audio")] 
+   [Header("Audio")]
    public AudioSource audioSource;
    public AudioClip jumpSound;
    public AudioClip dodgeSound;
-   
+
    [Header("Input System")]
    public InputActionReference attackUpAction;
    public InputActionReference attackDownAction;
@@ -40,7 +38,7 @@ public class NorgetController : MonoBehaviour {
    private Coroutine jumpRoutine;
    private Vector3 groundPosition;
    private int currentRunState = -1;
-   
+
    void Awake(){
       groundPosition = transform.position;
 
@@ -54,11 +52,11 @@ public class NorgetController : MonoBehaviour {
    }
 
    void UpdateRunAnimation(){
-      if (animator == null || JudgementSystem.Instance == null) return;
+      if (animator == null || JudgementSystem.Instance == null || IsDead) return;
 
       float health = JudgementSystem.Instance.health;
-      int newState; 
-      
+      int newState;
+
       if (health <= healthThresholdRun3) newState = 2;
       else if (health <= healthThresholdRun2) newState = 1;
       else newState = 0;
@@ -66,11 +64,6 @@ public class NorgetController : MonoBehaviour {
       if (newState != currentRunState) {
          currentRunState = newState;
          animator.SetFloat("RunState", newState);
-      }
-
-      if (health <= 0 && !IsDead) {
-         IsDead = true;
-         animator.SetBool("IsDead", IsDead);
       }
    }
 
@@ -105,14 +98,14 @@ public class NorgetController : MonoBehaviour {
       if (!fromNote && audioSource != null && jumpSound != null) {
          audioSource.PlayOneShot(jumpSound);
       }
-      
+
       jumpRoutine = StartCoroutine(JumpRoutine());
    }
 
    private IEnumerator JumpRoutine(){
       IsAirbone = true;
       IsMidAir = false;
-      
+
       if (animator != null) animator.SetBool("IsAirbone", true);
 
       Vector3 peakPosition = groundPosition + Vector3.up * jumpHeight;
@@ -125,7 +118,7 @@ public class NorgetController : MonoBehaviour {
          yield return null;
       }
       transform.position = peakPosition;
-      
+
       IsMidAir = true;
       float fallDuration = jumpDuration - riseDuration;
       elapsed = 0f;
@@ -161,7 +154,7 @@ public class NorgetController : MonoBehaviour {
    }
 
    public void PlaySound(AudioClip clip){
-      if (audioSource != null && clip != null) audioSource.PlayOneShot(clip); 
+      if (audioSource != null && clip != null) audioSource.PlayOneShot(clip);
    }
 
    public void PlayDodgeSound(){

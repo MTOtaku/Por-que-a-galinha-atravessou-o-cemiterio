@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: afb6174edf78281489413fafc5c96b60
   - enabled: 1
-    path: Assets/Scenes/Charts Scenes/Chart Template 3.unity
+    path: Assets/Scenes/Charts Scenes/Fase_Principal_Alpha.unity
     guid: 6d7640e96ac0b9c4da900ad79bbb037d
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}

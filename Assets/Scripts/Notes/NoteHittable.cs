@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
-using Unity.VisualScripting;
 
 public enum NoteShape { Tap, Hold }
 
@@ -12,15 +11,19 @@ public class NoteHittable : MonoBehaviour {
 
     [Header("Nota")] [Tooltip("Tempo pra nota ser destruida no miss")]
     public float missDestroyDelay = 1.0f;
-    
+
     [Header("Input System")]
     public InputActionReference attackUpAction;
     public InputActionReference attackDownAction;
-    
+
     private Transform hitZoneTransform;
     private bool wasHit = false; // Isso aq é pra nota de Tap
     private bool heldAtSomePoint = false; // ISso aq é pra notas de Hold
     
+    public static readonly System.Collections.Generic.List<NoteHittable> Active = new();
+
+    void OnEnable() => Active.Add(this);
+    void OnDisable() => Active.Remove(this);
     
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("HitZone")) {
@@ -31,11 +34,11 @@ public class NoteHittable : MonoBehaviour {
 
     void Update(){
         if (shape == NoteShape.Hold && InHitZone) {
-            KeyCode key = type == NoteType.Air ? KeyCode.A : KeyCode.S;
-            if (Input.GetKey(key)) heldAtSomePoint = true;
+            InputAction action = type == NoteType.Air ? attackUpAction.action : attackDownAction.action;
+            if (action.IsPressed()) heldAtSomePoint = true;
         }
     }
-    
+
     void OnTriggerExit2D(Collider2D other){
         if (!other.CompareTag("HitZone")) return;
         InHitZone = false;
@@ -48,11 +51,11 @@ public class NoteHittable : MonoBehaviour {
                 StartCoroutine(DestroyAfterMiss());
                 return;
             }
-        } else { //Hold notes
+        } else {
             InputAction action = type == NoteType.Air ? attackUpAction.action : attackDownAction.action;
             bool stillHolding = action.IsPressed();
-            
-            if (stillHolding) JudgementSystem.Instance.RegisterHit(Judgement.Perfect,this);
+
+            if (stillHolding) JudgementSystem.Instance.RegisterHit(Judgement.Perfect, this);
             else if (heldAtSomePoint) JudgementSystem.Instance.RegisterHit(Judgement.Good, this);
             else {
                 JudgementSystem.Instance.RegisterMiss();
@@ -62,20 +65,19 @@ public class NoteHittable : MonoBehaviour {
         }
         Destroy(gameObject);
     }
-    
-    // Distancia até o centro da hitzone dentro da unidade da unity
+
     public float DistanceToHitZoneCenter() {
         if (hitZoneTransform == null) return float.MaxValue;
         return Mathf.Abs(transform.position.x - hitZoneTransform.position.x);
     }
-    
+
     public void MarkAsHit() {
         wasHit = true;
         Destroy(gameObject);
     }
+
     private IEnumerator DestroyAfterMiss(){
         yield return new WaitForSeconds(missDestroyDelay);
         Destroy(gameObject);
     }
 }
-
