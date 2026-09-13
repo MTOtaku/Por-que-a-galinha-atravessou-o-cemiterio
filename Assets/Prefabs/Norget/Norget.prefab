@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 1209657687201101728}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5800002, y: -5.31, z: -0.0000036673252}
-  m_LocalScale: {x: 0.55, y: 0.5, z: 1}
+  m_LocalPosition: {x: -1.681, y: -4.2, z: -0}
+  m_LocalScale: {x: 0.5253758, y: 0.47761434, z: 0.9552287}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -70,11 +70,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NorgetController
   jumpDuration: 1.2
-  riseDuration: 0.15
-  jumpHeight: 6
-  animator: {fileID: 0}
+  riseDuration: 0.3
+  jumpHeight: 4
+  animator: {fileID: 1463134747258712146}
+  healthThresholdRun2: 70
+  healthThresholdRun3: 30
+  audioSource: {fileID: 0}
+  jumpSound: {fileID: 8300000, guid: ce9629ac0a21b164d9fb1f9070847f9d, type: 3}
+  dodgeSound: {fileID: 8300000, guid: ce9629ac0a21b164d9fb1f9070847f9d, type: 3}
   attackUpAction: {fileID: 8801065999918395495, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  attackDownAction: {fileID: 2951113630317837908, guid: 2d1b7b76497142d45b6d0d3b34ff5c82, type: 3}
+  attackDownAction: {fileID: 7791051493849181974, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
 --- !u!212 &1890107361167151572
 SpriteRenderer:
   serializedVersion: 2
@@ -124,7 +129,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -4315229974853958090, guid: 6aee31fffd792e642bec27a906b8d955, type: 3}
+  m_Sprite: {fileID: 5306754417711573315, guid: e484d1cc42eceec49a7b6256fcff0c60, type: 3}
   m_Color: {r: 0.5707547, g: 0.73123085, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -168,15 +173,15 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.35112262, y: 7.0695257}
+  m_Offset: {x: 0.30646366, y: 2.1210327}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.51, y: 4.73}
+    oldSize: {x: 5.02062, y: 5.3199997}
     newSize: {x: 3.51, y: 4.73}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.2122464, y: 18.86907}
+  m_Size: {x: 3.3837547, y: 61.287445}
   m_EdgeRadius: 0

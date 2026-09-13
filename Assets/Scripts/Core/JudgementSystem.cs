@@ -1,6 +1,7 @@
 using UnityEngine;
 using System;
 using System.Collections;
+using Unity.VisualScripting;
 
 public enum Judgement {Perfect, Good, Miss}
 public class JudgementSystem : MonoBehaviour {
@@ -12,6 +13,9 @@ public class JudgementSystem : MonoBehaviour {
     public GameObject perfectEffectPrefab;
     public GameObject goodEffectPrefab;
     public GameObject missEffectPrefab;
+    
+    [Header("Impacto visual de notas")]
+    public GameObject impactPiecePrefab;
     
     public int score = 0;
     public int combo = 0;
@@ -34,11 +38,13 @@ public class JudgementSystem : MonoBehaviour {
         
         print($"{judgement} Hit - Judgement System");
         SpawnEffect(judgement);
+        SpawnImpactPiece(note);
         
         if (norget != null) {
             norget.PlayReaction(judgement);
             
             if (note.type == NoteType.Air) norget.Jump(true);
+            //else if (note.type == NoteType.Ground && norget.IsAirbone) norget.LandInstantly();
         }
     }
 
@@ -79,4 +85,14 @@ public class JudgementSystem : MonoBehaviour {
         if (prefab != null) Instantiate(prefab, hitZone.position, Quaternion.identity);
     }
     
+    private void SpawnImpactPiece(NoteHittable note){
+        if (impactPiecePrefab == null) return;
+
+        SpriteRenderer noteSprite = note.GetComponent<SpriteRenderer>();
+        if (noteSprite == null || noteSprite.sprite == null) return;
+
+        GameObject piece = Instantiate(impactPiecePrefab, note.transform.position, Quaternion.identity);
+        ImpactPiece impact = piece.GetComponent<ImpactPiece>();
+        if (impact != null) impact.Init(noteSprite.sprite, note.transform.lossyScale);
+    }
 }

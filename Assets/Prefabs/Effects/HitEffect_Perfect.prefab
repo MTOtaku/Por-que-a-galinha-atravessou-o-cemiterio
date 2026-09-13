@@ -42,7 +42,7 @@ AudioSource:
   m_GameObject: {fileID: 1181567403090575206}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -8225255265999289271, guid: 4d6189b34c40baa49b9048216b5d5f4f, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: d57dc5037dae2be438535d9f27d3ee07, type: 3}
   m_PlayOnAwake: 0
@@ -143,4 +143,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HitEffect
   sound: {fileID: 8300000, guid: d57dc5037dae2be438535d9f27d3ee07, type: 3}
-  lifetime: 1
+  particles: {fileID: 0}
+  fallbackLifetime: 1

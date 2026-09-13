@@ -22,6 +22,7 @@ public class VictoryManager : MonoBehaviour {
     }
 
     public void ShowVictory(){
+        GameState.IsGameEnding = true;
         if (victoryPanel != null) victoryPanel.SetActive(true);
         if (hud != null) hud.SetActive(false);
 

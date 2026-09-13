@@ -41,10 +41,6 @@ public class NorgetController : MonoBehaviour {
 
    void Awake(){
       groundPosition = transform.position;
-
-      if (animator != null) {
-         animator.updateMode = AnimatorUpdateMode.UnscaledTime;
-      }
    }
 
    void Update(){
@@ -167,6 +163,7 @@ public class NorgetController : MonoBehaviour {
       IsDead = true;
 
       if (animator != null) {
+         animator.updateMode = AnimatorUpdateMode.UnscaledTime;
          animator.SetBool("IsDead", true);
       }
 

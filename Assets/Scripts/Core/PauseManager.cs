@@ -28,6 +28,8 @@ public class PauseManager : MonoBehaviour {
     }
 
     void OnPausePressed(InputAction.CallbackContext ctx) {
+        if (GameState.IsGameEnding) return; 
+
         if (isPaused) Resume();
         else Pause();
     }

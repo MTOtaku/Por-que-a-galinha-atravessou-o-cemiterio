@@ -49,6 +49,8 @@ public class GameOverManager : MonoBehaviour {
     }
 
     public void StartDeathSequence(){
+        GameState.IsGameEnding = true; // <- novo, primeira linha
+
         Time.timeScale = 0f;
 
         if (Conductor.Instance != null && Conductor.Instance.musicSource != null)
