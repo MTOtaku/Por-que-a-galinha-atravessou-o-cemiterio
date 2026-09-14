@@ -42,7 +42,7 @@ public class PauseManager : MonoBehaviour {
         if (Conductor.Instance != null && Conductor.Instance.musicSource != null)
             Conductor.Instance.musicSource.Pause();
     }
-
+    
     public void Resume() {
         isPaused = false;
         if (pausePanel != null) pausePanel.SetActive(false);

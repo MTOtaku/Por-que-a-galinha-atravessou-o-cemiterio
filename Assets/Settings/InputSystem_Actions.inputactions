@@ -537,6 +537,28 @@
                 },
                 {
                     "name": "",
+                    "id": "ca004a84-9e15-41e2-86c9-016dde327689",
+                    "path": "<HID::2DC8-6012>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack_up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d663758c-6be6-425b-9109-ddb1b0d66b27",
+                    "path": "<HID::2DC8-6012>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack_up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "e4d0371a-065e-43eb-976c-a8fbf4a240e5",
                     "path": "<Keyboard>/j",
                     "interactions": "",
@@ -550,6 +572,28 @@
                     "name": "",
                     "id": "a0c0bdd7-eabe-42d0-a440-e2e60768030a",
                     "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack_down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "788bae9a-8e74-4ed2-86b5-a8abec2f2c25",
+                    "path": "<HID::2DC8-6012>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack_down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6a829406-2c37-4cc5-a611-20ff0b1f7d42",
+                    "path": "<HID::2DC8-6012>/button2",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
