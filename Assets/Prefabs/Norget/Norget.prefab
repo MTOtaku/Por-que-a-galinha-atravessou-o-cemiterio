@@ -70,7 +70,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NorgetController
   jumpDuration: 1.2
-  riseDuration: 0.3
+  riseDuration: 0.1
   jumpHeight: 4
   animator: {fileID: 1463134747258712146}
   healthThresholdRun2: 70
@@ -80,6 +80,7 @@ MonoBehaviour:
   dodgeSound: {fileID: 8300000, guid: ce9629ac0a21b164d9fb1f9070847f9d, type: 3}
   attackUpAction: {fileID: 8801065999918395495, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   attackDownAction: {fileID: 7791051493849181974, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  shoePiecePrefab: {fileID: 4443540892041127670, guid: 188ad959e5069534c94df663530dfb72, type: 3}
 --- !u!212 &1890107361167151572
 SpriteRenderer:
   serializedVersion: 2

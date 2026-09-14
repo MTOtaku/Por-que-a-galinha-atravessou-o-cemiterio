@@ -35,10 +35,14 @@ public class NorgetController : MonoBehaviour {
    public InputActionReference attackUpAction;
    public InputActionReference attackDownAction;
 
+   [Header("Projetil Sapato")] 
+   public GameObject shoePiecePrefab;
+
    private Coroutine jumpRoutine;
    private Vector3 groundPosition;
    private int currentRunState = -1;
-
+   private bool hasInitializedRunState = false;
+   
    void Awake(){
       groundPosition = transform.position;
    }
@@ -49,7 +53,7 @@ public class NorgetController : MonoBehaviour {
 
    void UpdateRunAnimation(){
       if (animator == null || JudgementSystem.Instance == null || IsDead) return;
-
+      
       float health = JudgementSystem.Instance.health;
       int newState;
 
@@ -57,7 +61,17 @@ public class NorgetController : MonoBehaviour {
       else if (health <= healthThresholdRun2) newState = 1;
       else newState = 0;
 
+      if (!hasInitializedRunState) {
+         hasInitializedRunState = true;
+         currentRunState = newState;
+         animator.SetFloat("RunState", newState);
+         return;
+      }
+      
       if (newState != currentRunState) {
+         if (newState > currentRunState) {
+            SpawnShoePiece();
+         }
          currentRunState = newState;
          animator.SetFloat("RunState", newState);
       }
@@ -79,6 +93,14 @@ public class NorgetController : MonoBehaviour {
       attackDownAction.action.Disable();
    }
 
+   private void SpawnShoePiece(){
+      if (shoePiecePrefab == null) return;
+      
+      GameObject piece = Instantiate(shoePiecePrefab, transform.position, Quaternion.identity);
+      ImpactPiece impact = piece.GetComponent<ImpactPiece>();
+      if (impact != null) impact.Launch();
+   }
+   
    void OnAttackUp(InputAction.CallbackContext ctx){
       if (!IsAirbone) Jump();
    }

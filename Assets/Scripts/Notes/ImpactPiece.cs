@@ -12,16 +12,17 @@ public class ImpactPiece : MonoBehaviour {
     void Update(){
         transform.Rotate(0f, 0f, spinSpeed * Time.deltaTime);
     }
-    
-    public void Init(Sprite sprite, Vector3 scale) {
+
+    public void Init(Sprite sprite, Vector3 scale){
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
         if (sr != null) sr.sprite = sprite;
-
         transform.localScale = scale;
-        
+        Launch();
+    }
+
+    public void Launch(){
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         if (rb != null) rb.AddForce(launchDirection.normalized * launchForce, ForceMode2D.Impulse);
-
         Destroy(gameObject, lifetime);
     }
 }

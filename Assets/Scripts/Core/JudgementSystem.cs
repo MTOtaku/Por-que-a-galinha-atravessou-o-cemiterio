@@ -74,6 +74,11 @@ public class JudgementSystem : MonoBehaviour {
        }
     }
 
+    public void Heal(float amount){
+        float oldHealth = health;
+        health = Mathf.Min((health + amount), maxHealth);
+    }
+    
     private void SpawnEffect(Judgement judgement){
         if (hitZone == null) return;
 
