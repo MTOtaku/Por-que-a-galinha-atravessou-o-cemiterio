@@ -20953,23 +20953,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7385658921873468128, guid: c328da283fcdd74408840b47852b5c97, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0504688
+      value: 0.20712091
       objectReference: {fileID: 0}
     - target: {fileID: 7385658921873468128, guid: c328da283fcdd74408840b47852b5c97, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.855
+      value: 0.05014319
+      objectReference: {fileID: 0}
+    - target: {fileID: 7385658921873468128, guid: c328da283fcdd74408840b47852b5c97, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.080766
+      objectReference: {fileID: 0}
+    - target: {fileID: 7385658921873468128, guid: c328da283fcdd74408840b47852b5c97, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000000171
       objectReference: {fileID: 0}
     - target: {fileID: 7385658921873468128, guid: c328da283fcdd74408840b47852b5c97, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.683
+      value: -1.498
+      objectReference: {fileID: 0}
+    - target: {fileID: 8301215350506420482, guid: c328da283fcdd74408840b47852b5c97, type: 3}
+      propertyPath: m_Size.x
+      value: 38.399998
+      objectReference: {fileID: 0}
+    - target: {fileID: 8301215350506420482, guid: c328da283fcdd74408840b47852b5c97, type: 3}
+      propertyPath: m_Size.y
+      value: 21.599998
       objectReference: {fileID: 0}
     - target: {fileID: 8301215350506420482, guid: c328da283fcdd74408840b47852b5c97, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -8150834624804871302, guid: 70867b3d4fcf08643add58a7d72ca78d, type: 3}
+      objectReference: {fileID: -8150834624804871302, guid: d0d687b2d0357554eaba68fc3ce323d8, type: 3}
     - target: {fileID: 8301215350506420482, guid: c328da283fcdd74408840b47852b5c97, type: 3}
       propertyPath: m_SortingOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8301215350506420482, guid: c328da283fcdd74408840b47852b5c97, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
