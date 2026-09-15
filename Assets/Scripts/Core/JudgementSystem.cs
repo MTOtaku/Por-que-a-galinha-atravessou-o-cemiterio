@@ -16,7 +16,7 @@ public class JudgementSystem : MonoBehaviour {
     
     [Header("Impacto visual de notas")]
     public GameObject impactPiecePrefab;
-    
+        
     public int score = 0;
     public int combo = 0;
     public float maxHealth = 100f;
@@ -26,7 +26,6 @@ public class JudgementSystem : MonoBehaviour {
     public float PerfectCount = 0;
     public float GoodCount = 0;
     public float MissCount = 0;
-
     void Awake(){
         Instance = this;
         health = maxHealth;

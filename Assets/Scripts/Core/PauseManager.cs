@@ -39,8 +39,7 @@ public class PauseManager : MonoBehaviour {
         if (pausePanel != null) pausePanel.SetActive(true);
         Time.timeScale = 0f;
 
-        if (Conductor.Instance != null && Conductor.Instance.musicSource != null)
-            Conductor.Instance.musicSource.Pause();
+       if (Conductor.Instance != null) Conductor.Instance.Pause();
     }
     
     public void Resume() {
@@ -48,7 +47,6 @@ public class PauseManager : MonoBehaviour {
         if (pausePanel != null) pausePanel.SetActive(false);
         Time.timeScale = 1f;
 
-        if (Conductor.Instance != null && Conductor.Instance.musicSource != null)
-            Conductor.Instance.musicSource.UnPause(); 
+        if (Conductor.Instance != null) Conductor.Instance.Resume();
     }
 }

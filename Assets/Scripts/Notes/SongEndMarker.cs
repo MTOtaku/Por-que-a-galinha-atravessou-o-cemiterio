@@ -3,7 +3,7 @@
 public class SongEndMarker : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D other){
         if (!other.CompareTag("HitZone")) return;
-
+        
         if (VictoryManager.Instance != null) VictoryManager.Instance.ShowVictory();
         
         Destroy(gameObject);

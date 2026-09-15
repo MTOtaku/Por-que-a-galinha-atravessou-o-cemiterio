@@ -40,11 +40,13 @@ public class VictoryManager : MonoBehaviour {
     }
 
     public void Restart(){
+        GameState.IsGameEnding = false;
         SceneManager.sceneLoaded += OnSceneReloaded;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void BackToMenu(){
+        GameState.IsGameEnding = false;
         SceneManager.sceneLoaded += OnSceneReloaded;
         SceneManager.LoadScene(menuSceneName);
     }
@@ -52,5 +54,6 @@ public class VictoryManager : MonoBehaviour {
     public void OnSceneReloaded(Scene scene, LoadSceneMode mode){
         Time.timeScale = 1f;
         SceneManager.sceneLoaded -= OnSceneReloaded;
+        GameState.IsGameEnding = false;
     }
 }

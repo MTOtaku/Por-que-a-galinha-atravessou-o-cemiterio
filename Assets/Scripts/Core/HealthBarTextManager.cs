@@ -16,7 +16,7 @@ public class HealthBarTextManager : MonoBehaviour {
         if (healthText != null && JudgementSystem.Instance != null)
         {
             healthText.text =
-                $"HP: {JudgementSystem.Instance.health}";
+                $"Hp: {JudgementSystem.Instance.health}";
         }
     }
     
