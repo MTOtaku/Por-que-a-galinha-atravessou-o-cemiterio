@@ -30,6 +30,7 @@ public class NorgetController : MonoBehaviour {
    public AudioSource audioSource;
    public AudioClip jumpSound;
    public AudioClip dodgeSound;
+   public AudioClip deathSound;
 
    [Header("Input System")]
    public InputActionReference attackUpAction;
@@ -180,12 +181,12 @@ public class NorgetController : MonoBehaviour {
 
    public void Die(){
       if (IsDead) return;
-
       IsDead = true;
-
+      
       if (animator != null) {
          animator.updateMode = AnimatorUpdateMode.UnscaledTime;
          animator.SetBool("IsDead", true);
+         if (audioSource != null && deathSound != null) audioSource.PlayOneShot(deathSound);
       }
 
       GameOverManager.Instance.StartDeathSequence();
