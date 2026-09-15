@@ -153,12 +153,11 @@ public class NorgetController : MonoBehaviour {
       print("Aterrissou");
    }
 
-   public void PlayReaction(Judgement? judgement) {
-      print(judgement == null ? "Reação: Miss" : $"Reação: {judgement}");
-
+   public void PlayReaction(Judgement judgement) {
+      print($"Reação: {judgement}");
       if (animator == null) return;
 
-      if (judgement == null) animator.SetTrigger("Miss");
+      if (judgement == Judgement.Miss) animator.SetTrigger("Miss");
       else if (judgement == Judgement.Perfect) animator.SetTrigger("Perfect");
       else animator.SetTrigger("Good");
    }

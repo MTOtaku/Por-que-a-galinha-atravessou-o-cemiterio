@@ -53,7 +53,7 @@ public class JudgementSystem : MonoBehaviour {
         score += 75;
         PerfectCount++;
         print($"Desvio - Judgement System");
-        SpawnEffect(Judgement.Perfect);
+        //SpawnEffect(Judgement.Perfect);
         if (norget != null) norget.PlayDodgeSound();
     }
     

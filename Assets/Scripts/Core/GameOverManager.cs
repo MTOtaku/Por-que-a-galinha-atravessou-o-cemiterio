@@ -36,6 +36,7 @@ public class GameOverManager : MonoBehaviour {
     public void Restart() {
         SceneManager.sceneLoaded += OnSceneReload;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        GameState.IsGameEnding = false;
     }
 
     public void BackToMenu() {
@@ -49,7 +50,7 @@ public class GameOverManager : MonoBehaviour {
     }
 
     public void StartDeathSequence(){
-        GameState.IsGameEnding = true; // <- novo, primeira linha
+        GameState.IsGameEnding = true;
 
         Time.timeScale = 0f;
 

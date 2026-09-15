@@ -9791,7 +9791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::JudgementSystem
   norget: {fileID: 1615786686}
   hitZone: {fileID: 1422473683}
-  perfectEffectPrefab: {fileID: 1371318875636361892, guid: e5e961485019ae9449f99e74a420795e, type: 3}
+  perfectEffectPrefab: {fileID: 1181567403090575206, guid: d9f1e4f33a267184aa5f9e016c2e7370, type: 3}
   goodEffectPrefab: {fileID: 380592875143180650, guid: 230a67658d0c39047805a77045d528ff, type: 3}
   missEffectPrefab: {fileID: 606557837687116342, guid: d15bf585b6a053345a66ec0e18c39097, type: 3}
   impactPiecePrefab: {fileID: 2362428187106953452, guid: 331499b69b104394ebaccf3e2489a072, type: 3}
@@ -38338,9 +38338,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9500c0839f014974889779c0e537a03c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UISoundManager
-  hoverSound: {fileID: 0}
-  CancelSound: {fileID: 0}
-  AcceptSound: {fileID: 0}
+  hoverSound: {fileID: 8300000, guid: fb15d57fb134eaf4b9e94c3ffc3b84d4, type: 3}
+  CancelSound: {fileID: 8300000, guid: a5b699704200d8c4daab8e00072cf62f, type: 3}
+  AcceptSound: {fileID: 8300000, guid: 9e6e80f7a325edd48bea634f869805c2, type: 3}
 --- !u!82 &1658619184
 AudioSource:
   m_ObjectHideFlags: 0
@@ -49501,6 +49501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Norget
       objectReference: {fileID: 0}
+    - target: {fileID: 4042218608873173087, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
+      propertyPath: dodgeSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1335399894d01704c84be784e03d99da, type: 3}
     - target: {fileID: 4042218608873173087, guid: 5d4ffb26bf0044741a8f61e55132eab2, type: 3}
       propertyPath: audioSource
       value: 
