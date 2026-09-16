@@ -40,11 +40,13 @@ public class GameOverManager : MonoBehaviour {
     }
 
     public void BackToMenu() {
+        GameState.IsGameEnding = false;
         SceneManager.sceneLoaded += OnSceneReload;
         SceneManager.LoadScene(menuSceneName);
     }
 
     private void OnSceneReload(Scene scene, LoadSceneMode mode){
+        GameState.IsGameEnding = false;
         Time.timeScale = 1f;
         SceneManager.sceneLoaded -= OnSceneReload;
     }
